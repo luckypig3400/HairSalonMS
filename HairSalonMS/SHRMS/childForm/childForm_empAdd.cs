@@ -5,14 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HairSalonMS
+namespace SHRMS.childForm
 {
-    public partial class Form1 : Form
+    public partial class childForm_empAdd : Form
     {
-        public Form1()
+        public childForm_empAdd()
         {
             InitializeComponent();
         }

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{054ABE9D-5E00-4E1E-A5B0-FA31884DA73D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SHRMS</RootNamespace>
+    <AssemblyName>SHRMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>icons8_user_shield.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>G:\C#\教学管理系统\教学管理系统\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="childForm\childForm_apply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_apply.Designer.cs">
+      <DependentUpon>childForm_apply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_attendanceAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_attendanceAdd.Designer.cs">
+      <DependentUpon>childForm_attendanceAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_attendanceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_attendanceInfo.Designer.cs">
+      <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_deptAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_deptAdd.Designer.cs">
+      <DependentUpon>childForm_deptAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_deptInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_deptInfo.Designer.cs">
+      <DependentUpon>childForm_deptInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_empAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_empAdd.Designer.cs">
+      <DependentUpon>childForm_empAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_empFamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_empFamily.Designer.cs">
+      <DependentUpon>childForm_empFamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_empInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_empInfo.Designer.cs">
+      <DependentUpon>childForm_empInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_home.Designer.cs">
+      <DependentUpon>childForm_home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_personalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_personalInfo.Designer.cs">
+      <DependentUpon>childForm_personalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryAdd.Designer.cs">
+      <DependentUpon>childForm_salaryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryInfo.Designer.cs">
+      <DependentUpon>childForm_salaryInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_salaryReport.Designer.cs">
+      <DependentUpon>childForm_salaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_systemManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_systemManage.Designer.cs">
+      <DependentUpon>childForm_systemManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_teaAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_teaAdd.Designer.cs">
+      <DependentUpon>childForm_teaAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_teaFamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_teaFamily.Designer.cs">
+      <DependentUpon>childForm_teaFamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_teaInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_teaInfo.Designer.cs">
+      <DependentUpon>childForm_teaInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_sign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_sign.Designer.cs">
+      <DependentUpon>Form_sign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="childForm\childForm_apply.resx">
+      <DependentUpon>childForm_apply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_attendanceAdd.resx">
+      <DependentUpon>childForm_attendanceAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_attendanceInfo.resx">
+      <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_deptAdd.resx">
+      <DependentUpon>childForm_deptAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_deptInfo.resx">
+      <DependentUpon>childForm_deptInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_empAdd.resx">
+      <DependentUpon>childForm_empAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_empFamily.resx">
+      <DependentUpon>childForm_empFamily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_empInfo.resx">
+      <DependentUpon>childForm_empInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_home.resx">
+      <DependentUpon>childForm_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_personalInfo.resx">
+      <DependentUpon>childForm_personalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_salaryAdd.resx">
+      <DependentUpon>childForm_salaryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_salaryInfo.resx">
+      <DependentUpon>childForm_salaryInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_salaryReport.resx">
+      <DependentUpon>childForm_salaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_systemManage.resx">
+      <DependentUpon>childForm_systemManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_teaAdd.resx">
+      <DependentUpon>childForm_teaAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_teaFamily.resx">
+      <DependentUpon>childForm_teaFamily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_teaInfo.resx">
+      <DependentUpon>childForm_teaInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_sign.resx">
+      <DependentUpon>Form_sign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_user_shield.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

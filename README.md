@@ -22,6 +22,10 @@
 + [C#連接Xampp MySQL教學](https://ourcodeworld.com/articles/read/218/how-to-connect-to-mysql-with-c-sharp-winforms-and-xampp)
 + [安裝MySQL Connector/NET 8.0.31 與 MySQL for Visual Studio 1.2.10](https://stackoverflow.com/questions/16879451/mysql-data-source-not-appearing-in-visual-studio)
 + [MySQL for Visual Studio目前尚不支援2022版本](https://www.zhihu.com/question/498898189)
+
+### MySql.Data錯誤解決發法
++ [安裝MySQL官方提供的MySQLConnection NET套件然後依照安裝資料夾找到MySql.Data.dll並加入於專案中](https://stackoverflow.com/questions/21618015/how-to-connect-to-mysql-database#answer-52546882)
+
 + [重新命名C#專案](https://stackoverflow.com/questions/45773245/how-to-change-whole-solutions-projects-name-in-visual-studio)
 
 ## Special Thanks

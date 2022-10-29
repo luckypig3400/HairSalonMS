@@ -31,7 +31,7 @@ CREATE TABLE `t_attendance`  (
   `earlyLeaveNumber` int(0) NULL DEFAULT NULL COMMENT '早退次數',
   `absenteeism` int(0) NULL DEFAULT NULL COMMENT '曠到次數',
   PRIMARY KEY (`empNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_attendance
@@ -46,12 +46,12 @@ INSERT INTO `t_attendance` VALUES (20209902, 22, 0, 0, 0, 0, 0);
 DROP TABLE IF EXISTS `t_department`;
 CREATE TABLE `t_department`  (
   `departmentNo` bigint(0) NOT NULL COMMENT '部門編號',
-  `deptName` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '部門名稱',
-  `address` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '部門地址',
+  `deptName` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '部門名稱',
+  `address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '部門地址',
   `empNumber` int(0) NULL DEFAULT 0 COMMENT '部門員工人數',
-  `telephone` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '部門電話',
+  `telephone` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '部門電話',
   PRIMARY KEY (`departmentNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_department
@@ -69,14 +69,14 @@ DROP TABLE IF EXISTS `t_employee`;
 CREATE TABLE `t_employee`  (
   `empNo` bigint(0) NOT NULL COMMENT '教職工編號',
   `departmentNo` bigint(0) NULL DEFAULT NULL COMMENT '部門編號',
-  `name` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '姓名',
-  `gender` enum('男','女') CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '性別',
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '姓名',
+  `gender` enum('男','女') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '性別',
   `age` int(0) NULL DEFAULT NULL COMMENT '年齡',
-  `nativePlace` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '籍貫',
-  `IDcardNo` varchar(0) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '身份證號',
-  `bankCardNo` varchar(0) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '銀行卡號',
+  `nativePlace` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '籍貫',
+  `IDcardNo` varchar(0) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '身份證號',
+  `bankCardNo` varchar(0) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '銀行卡號',
   PRIMARY KEY (`empNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for t_family
@@ -84,18 +84,18 @@ CREATE TABLE `t_employee`  (
 DROP TABLE IF EXISTS `t_family`;
 CREATE TABLE `t_family`  (
   `empNo` bigint(0) NOT NULL COMMENT '員工編號',
-  `familyMemberName` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '家庭成員名',
-  `relationship` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '關係',
-  `telephone` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '電話',
+  `familyMemberName` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '家庭成員名',
+  `relationship` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '關係',
+  `telephone` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '電話',
   PRIMARY KEY (`empNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for t_rolepower
 -- ----------------------------
 DROP TABLE IF EXISTS `t_rolepower`;
 CREATE TABLE `t_rolepower`  (
-  `role` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NOT NULL,
+  `role` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `manage_dept` tinyint(1) NOT NULL DEFAULT 0,
   `manage_teacher` tinyint(1) NOT NULL DEFAULT 0,
   `manage_emp` tinyint(1) NOT NULL DEFAULT 0,
@@ -104,7 +104,7 @@ CREATE TABLE `t_rolepower`  (
   `apply` tinyint(1) NOT NULL DEFAULT 0,
   `personalInfo` tinyint(1) NOT NULL DEFAULT 0,
   `managesystem` tinyint(1) NOT NULL DEFAULT 0
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_rolepower
@@ -130,7 +130,7 @@ CREATE TABLE `t_salary`  (
   `rate` double(10, 2) NULL DEFAULT NULL COMMENT '稅率',
   `realSalary` decimal(10, 2) NULL DEFAULT NULL COMMENT '實發工資',
   PRIMARY KEY (`empNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_salary
@@ -146,18 +146,18 @@ DROP TABLE IF EXISTS `t_teacher`;
 CREATE TABLE `t_teacher`  (
   `teacherNo` bigint(0) NOT NULL COMMENT '教師編號',
   `departmentNo` bigint(0) NULL DEFAULT NULL COMMENT '所在部門編號',
-  `name` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '姓名',
-  `gender` enum('男','女') CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '性別',
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '姓名',
+  `gender` enum('男','女') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '性別',
   `age` int(0) NULL DEFAULT NULL COMMENT '年齡',
-  `stuStatus` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '學籍',
-  `education` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '學歷',
-  `birthday` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '生日',
-  `teaching` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '授課科目',
-  `IDcardNo` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '身份證號',
-  `bankCardNo` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '銀行卡號',
-  `status` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NULL DEFAULT NULL COMMENT '在職狀態',
+  `stuStatus` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '學籍',
+  `education` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '學歷',
+  `birthday` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '生日',
+  `teaching` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '授課科目',
+  `IDcardNo` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '身份證號',
+  `bankCardNo` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '銀行卡號',
+  `status` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '在職狀態',
   PRIMARY KEY (`teacherNo`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_teacher
@@ -171,13 +171,13 @@ INSERT INTO `t_teacher` VALUES (20209902, 1031, '劉洋', '女', 34, '西南大�
 -- ----------------------------
 DROP TABLE IF EXISTS `t_user`;
 CREATE TABLE `t_user`  (
-  `username` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NOT NULL COMMENT '用戶名',
-  `password` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NOT NULL COMMENT '密碼',
-  `email` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NOT NULL COMMENT '郵箱',
-  `role` varchar(255) CHARACTER SET gb2312 COLLATE gb2312_chinese_ci NOT NULL COMMENT '角色',
+  `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '用戶名',
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '密碼',
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '郵箱',
+  `role` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '角色',
   `empNo` bigint(0) NULL DEFAULT NULL COMMENT '員工編號',
   PRIMARY KEY (`username`) USING BTREE
-) ENGINE = InnoDB CHARACTER SET = gb2312 COLLATE = gb2312_chinese_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of t_user

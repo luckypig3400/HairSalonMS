@@ -15,3 +15,8 @@
 + [C#連接Xampp MySQL教學](https://ourcodeworld.com/articles/read/218/how-to-connect-to-mysql-with-c-sharp-winforms-and-xampp)
 + [安裝MySQL Connector/NET 8.0.31 與 MySQL for Visual Studio 1.2.10](https://stackoverflow.com/questions/16879451/mysql-data-source-not-appearing-in-visual-studio)
 + [MySQL for Visual Studio目前尚不支援2022版本](https://www.zhihu.com/question/498898189)
+
+## Special Thanks
++ [C# winform 高校人力資源管理系統](https://gitee.com/abin_z/shrms)
+以此開源專案作為介面模板修改
+十分感謝此專案的作者 ヾ(≧▽≦*)o

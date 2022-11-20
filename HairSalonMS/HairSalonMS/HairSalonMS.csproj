@@ -58,11 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="childForm\childForm_apply.cs">
+    <Compile Include="childForm\childForm_developing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="childForm\childForm_apply.Designer.cs">
-      <DependentUpon>childForm_apply.cs</DependentUpon>
+    <Compile Include="childForm\childForm_developing.Designer.cs">
+      <DependentUpon>childForm_developing.cs</DependentUpon>
     </Compile>
     <Compile Include="childForm\childForm_attendanceAdd.cs">
       <SubType>Form</SubType>
@@ -175,8 +175,8 @@
     <Compile Include="GlobalData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="childForm\childForm_apply.resx">
-      <DependentUpon>childForm_apply.cs</DependentUpon>
+    <EmbeddedResource Include="childForm\childForm_developing.resx">
+      <DependentUpon>childForm_developing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_attendanceAdd.resx">
       <DependentUpon>childForm_attendanceAdd.cs</DependentUpon>

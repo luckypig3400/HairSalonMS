@@ -111,9 +111,9 @@
             this.label8.Location = new System.Drawing.Point(61, 15);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(208, 20);
+            this.label8.Size = new System.Drawing.Size(235, 20);
             this.label8.TabIndex = 2;
-            this.label8.Text = "Geek高校人力資源管理系統";
+            this.label8.Text = "HairSalonMS 美髮沙龍管理系統";
             this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // pictureBox2
@@ -511,7 +511,7 @@
             this.sbtn_teaFamily.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_teaFamily.Size = new System.Drawing.Size(203, 50);
             this.sbtn_teaFamily.TabIndex = 1;
-            this.sbtn_teaFamily.Text = "      教師家庭關係";
+            this.sbtn_teaFamily.Text = "員工";
             this.sbtn_teaFamily.UseVisualStyleBackColor = true;
             this.sbtn_teaFamily.Click += new System.EventHandler(this.sbtn_teaFamily_Click);
             // 
@@ -527,7 +527,7 @@
             this.sbtn_teaInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_teaInfo.Size = new System.Drawing.Size(203, 50);
             this.sbtn_teaInfo.TabIndex = 0;
-            this.sbtn_teaInfo.Text = "教師資訊";
+            this.sbtn_teaInfo.Text = "查詢員工資料";
             this.sbtn_teaInfo.UseVisualStyleBackColor = true;
             this.sbtn_teaInfo.Click += new System.EventHandler(this.sbtn_teaInfo_Click);
             // 
@@ -545,7 +545,7 @@
             this.btn_teacher.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_teacher.Size = new System.Drawing.Size(203, 55);
             this.btn_teacher.TabIndex = 4;
-            this.btn_teacher.Text = "  教師管理";
+            this.btn_teacher.Text = "  員工管理";
             this.btn_teacher.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_teacher.UseVisualStyleBackColor = true;
             this.btn_teacher.Click += new System.EventHandler(this.btn_teacher_Click);
@@ -573,7 +573,7 @@
             this.sbtn_deptAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_deptAdd.Size = new System.Drawing.Size(203, 50);
             this.sbtn_deptAdd.TabIndex = 1;
-            this.sbtn_deptAdd.Text = "添加部門";
+            this.sbtn_deptAdd.Text = "美髮服務項目";
             this.sbtn_deptAdd.UseVisualStyleBackColor = true;
             this.sbtn_deptAdd.Click += new System.EventHandler(this.sbtn_deptAdd_Click);
             // 
@@ -589,7 +589,7 @@
             this.sbtn_deptInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_deptInfo.Size = new System.Drawing.Size(203, 50);
             this.sbtn_deptInfo.TabIndex = 0;
-            this.sbtn_deptInfo.Text = "部門資訊";
+            this.sbtn_deptInfo.Text = "廠商基本資料";
             this.sbtn_deptInfo.UseVisualStyleBackColor = true;
             this.sbtn_deptInfo.Click += new System.EventHandler(this.sbtn_deptInfo_Click);
             // 
@@ -607,7 +607,7 @@
             this.btn_dept.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_dept.Size = new System.Drawing.Size(203, 55);
             this.btn_dept.TabIndex = 2;
-            this.btn_dept.Text = "  部門管理";
+            this.btn_dept.Text = "  基本資料管理";
             this.btn_dept.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_dept.UseVisualStyleBackColor = true;
             this.btn_dept.Click += new System.EventHandler(this.btn_dept_Click);
@@ -646,11 +646,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(150)))), ((int)(((byte)(219)))));
-            this.label1.Location = new System.Drawing.Point(94, 41);
+            this.label1.Location = new System.Drawing.Point(85, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 20);
+            this.label1.Size = new System.Drawing.Size(114, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Geek HRMS";
+            this.label1.Text = "HairSalonMS";
             // 
             // pictureBox1
             // 

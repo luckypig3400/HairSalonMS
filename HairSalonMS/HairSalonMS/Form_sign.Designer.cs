@@ -96,12 +96,12 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(78, 335);
+            this.label2.Location = new System.Drawing.Point(49, 341);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 25);
+            this.label2.Size = new System.Drawing.Size(166, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Do Better";
+            this.label2.Text = "柔順美麗的秀髮";
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // label1
@@ -109,12 +109,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(16, 285);
+            this.label1.Location = new System.Drawing.Point(59, 284);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 25);
+            this.label1.Size = new System.Drawing.Size(146, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Geek  HRMS  System";
+            this.label1.Text = "HairSalonMS";
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // pictureBox1
@@ -525,9 +525,9 @@
             this.label8.Location = new System.Drawing.Point(4, 13);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(158, 18);
+            this.label8.Size = new System.Drawing.Size(128, 18);
             this.label8.TabIndex = 1;
-            this.label8.Text = "高校人力資源管理系統";
+            this.label8.Text = "美髮沙龍管理系統";
             this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // btn_close

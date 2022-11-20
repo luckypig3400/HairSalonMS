@@ -171,7 +171,7 @@ namespace SHRMS
         {
             selectedBackground(btn_apply);
             hideSubMenu();
-            childForm_apply frm = new childForm_apply();
+            childForm_developing frm = new childForm_developing();
             openChildForm(frm);
 
         }

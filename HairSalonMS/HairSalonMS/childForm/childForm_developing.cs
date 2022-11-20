@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace SHRMS.childForm
 {
-    public partial class childForm_apply : Form
+    public partial class childForm_developing : Form
     {
-        public childForm_apply()
+        public childForm_developing()
         {
             InitializeComponent();
         }

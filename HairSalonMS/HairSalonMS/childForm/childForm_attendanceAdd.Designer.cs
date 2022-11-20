@@ -87,13 +87,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：考勤管理 > 录入考勤";
+            this.label1.Text = "位置：考勤管理 > 錄入考勤";
             // 
             // panel_left
             // 
@@ -130,14 +130,14 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox2.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 206);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(480, 448);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "员工考勤信息";
+            this.groupBox2.Text = "員工考勤資訊";
             // 
             // numericUpDown_realDay
             // 
@@ -191,14 +191,14 @@
             this.btn_modifyAtt.Name = "btn_modifyAtt";
             this.btn_modifyAtt.Size = new System.Drawing.Size(133, 40);
             this.btn_modifyAtt.TabIndex = 3;
-            this.btn_modifyAtt.Text = "点击录入考勤";
+            this.btn_modifyAtt.Text = "點擊錄入考勤";
             this.btn_modifyAtt.UseVisualStyleBackColor = false;
             this.btn_modifyAtt.Click += new System.EventHandler(this.btn_modifyAtt_Click);
             // 
             // label_dept
             // 
             this.label_dept.AutoSize = true;
-            this.label_dept.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_dept.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_dept.Location = new System.Drawing.Point(149, 209);
             this.label_dept.Name = "label_dept";
             this.label_dept.Size = new System.Drawing.Size(46, 21);
@@ -208,7 +208,7 @@
             // label_role
             // 
             this.label_role.AutoSize = true;
-            this.label_role.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_role.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_role.Location = new System.Drawing.Point(149, 159);
             this.label_role.Name = "label_role";
             this.label_role.Size = new System.Drawing.Size(57, 27);
@@ -218,7 +218,7 @@
             // label_name
             // 
             this.label_name.AutoSize = true;
-            this.label_name.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_name.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_name.Location = new System.Drawing.Point(149, 110);
             this.label_name.Name = "label_name";
             this.label_name.Size = new System.Drawing.Size(57, 27);
@@ -228,7 +228,7 @@
             // label_empNo
             // 
             this.label_empNo.AutoSize = true;
-            this.label_empNo.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_empNo.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_empNo.Location = new System.Drawing.Point(149, 61);
             this.label_empNo.Name = "label_empNo";
             this.label_empNo.Size = new System.Drawing.Size(60, 27);
@@ -242,7 +242,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(90, 21);
             this.label14.TabIndex = 6;
-            this.label14.Text = "所在部门：";
+            this.label14.Text = "所在部門：";
             // 
             // label8
             // 
@@ -251,7 +251,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 21);
             this.label8.TabIndex = 6;
-            this.label8.Text = "加班小时数：";
+            this.label8.Text = "加班小時數：";
             // 
             // label7
             // 
@@ -260,7 +260,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 21);
             this.label7.TabIndex = 6;
-            this.label7.Text = "实际出勤天数：";
+            this.label7.Text = "實際出勤天數：";
             // 
             // label13
             // 
@@ -269,7 +269,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 21);
             this.label13.TabIndex = 6;
-            this.label13.Text = "旷到次数：";
+            this.label13.Text = "曠到次數：";
             // 
             // label12
             // 
@@ -278,7 +278,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 21);
             this.label12.TabIndex = 6;
-            this.label12.Text = "早退次数：";
+            this.label12.Text = "早退次數：";
             // 
             // label11
             // 
@@ -287,7 +287,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 21);
             this.label11.TabIndex = 6;
-            this.label11.Text = "迟到次数：";
+            this.label11.Text = "遲到次數：";
             // 
             // label6
             // 
@@ -296,7 +296,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 21);
             this.label6.TabIndex = 6;
-            this.label6.Text = "应出勤天数：";
+            this.label6.Text = "應出勤天數：";
             // 
             // label5
             // 
@@ -305,7 +305,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 21);
             this.label5.TabIndex = 6;
-            this.label5.Text = "员工编号：";
+            this.label5.Text = "員工編號：";
             // 
             // label9
             // 
@@ -314,7 +314,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(90, 21);
             this.label9.TabIndex = 6;
-            this.label9.Text = "员工职务：";
+            this.label9.Text = "員工職務：";
             // 
             // label4
             // 
@@ -323,7 +323,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 21);
             this.label4.TabIndex = 6;
-            this.label4.Text = "员工姓名：";
+            this.label4.Text = "員工姓名：";
             // 
             // groupBox1
             // 
@@ -332,19 +332,19 @@
             this.groupBox1.Controls.Add(this.btn_AllInfo);
             this.groupBox1.Controls.Add(this.btn_query);
             this.groupBox1.Controls.Add(this.label_sType);
-            this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(480, 178);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "快速查询";
+            this.groupBox1.Text = "快速查詢";
             // 
             // textBox_str
             // 
             this.textBox_str.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_str.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_str.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_str.Location = new System.Drawing.Point(327, 54);
             this.textBox_str.Name = "textBox_str";
             this.textBox_str.Size = new System.Drawing.Size(141, 26);
@@ -355,13 +355,13 @@
             this.btn_AllInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.btn_AllInfo.FlatAppearance.BorderSize = 0;
             this.btn_AllInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_AllInfo.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_AllInfo.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_AllInfo.ForeColor = System.Drawing.Color.White;
             this.btn_AllInfo.Location = new System.Drawing.Point(13, 113);
             this.btn_AllInfo.Name = "btn_AllInfo";
             this.btn_AllInfo.Size = new System.Drawing.Size(185, 40);
             this.btn_AllInfo.TabIndex = 3;
-            this.btn_AllInfo.Text = "查看所有员工信息";
+            this.btn_AllInfo.Text = "查看所有員工資訊";
             this.btn_AllInfo.UseVisualStyleBackColor = false;
             this.btn_AllInfo.Click += new System.EventHandler(this.btn_AllInfo_Click);
             // 
@@ -375,19 +375,19 @@
             this.btn_query.Name = "btn_query";
             this.btn_query.Size = new System.Drawing.Size(141, 40);
             this.btn_query.TabIndex = 3;
-            this.btn_query.Text = "点击查询";
+            this.btn_query.Text = "點擊查詢";
             this.btn_query.UseVisualStyleBackColor = false;
             this.btn_query.Click += new System.EventHandler(this.btn_query_Click);
             // 
             // label_sType
             // 
             this.label_sType.AutoSize = true;
-            this.label_sType.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_sType.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_sType.Location = new System.Drawing.Point(176, 54);
             this.label_sType.Name = "label_sType";
             this.label_sType.Size = new System.Drawing.Size(150, 25);
             this.label_sType.TabIndex = 6;
-            this.label_sType.Text = "按员工编号查询:";
+            this.label_sType.Text = "按員工編號查詢:";
             // 
             // panel_right
             // 

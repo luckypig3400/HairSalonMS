@@ -3,14 +3,14 @@
     partial class Form_sign
     {
         /// <summary>
-        /// 必需的设计器变量。
+        /// 必需的設計器變數。
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// 清理所有正在使用的资源。
+        /// 清理所有正在使用的資源。
         /// </summary>
-        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        /// <param name="disposing">如果應釋放託管資源，為 true；否則為 false。</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Windows 窗体设计器生成的代码
+        #region Windows 表單設計器生成的代碼
 
         /// <summary>
-        /// 设计器支持所需的方法 - 不要
-        /// 使用代码编辑器修改此方法的内容。
+        /// 設計器支持所需的方法 - 不要
+        /// 使用代碼編輯器修改此方法的內容。
         /// </summary>
         private void InitializeComponent()
         {
@@ -190,14 +190,14 @@
             this.btn_register.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(144)))), ((int)(((byte)(222)))));
             this.btn_register.FlatAppearance.BorderSize = 0;
             this.btn_register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_register.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_register.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_register.ForeColor = System.Drawing.Color.White;
             this.btn_register.Location = new System.Drawing.Point(46, 398);
             this.btn_register.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_register.Name = "btn_register";
             this.btn_register.Size = new System.Drawing.Size(242, 38);
             this.btn_register.TabIndex = 4;
-            this.btn_register.Text = "注  册";
+            this.btn_register.Text = "注  冊";
             this.btn_register.UseVisualStyleBackColor = false;
             this.btn_register.Click += new System.EventHandler(this.btn_register_Click);
             // 
@@ -240,62 +240,62 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label11.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label11.Location = new System.Drawing.Point(42, 118);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(88, 25);
             this.label11.TabIndex = 6;
-            this.label11.Text = "用户名：";
+            this.label11.Text = "用戶名：";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label10.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label10.Location = new System.Drawing.Point(42, 186);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 25);
             this.label10.TabIndex = 6;
-            this.label10.Text = "密 码：";
+            this.label10.Text = "密 碼：";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label9.Location = new System.Drawing.Point(42, 254);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(107, 25);
             this.label9.TabIndex = 6;
-            this.label9.Text = "确认密码：";
+            this.label9.Text = "確認密碼：";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label7.Location = new System.Drawing.Point(42, 322);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 25);
             this.label7.TabIndex = 6;
-            this.label7.Text = "邮 箱：";
+            this.label7.Text = "郵 箱：";
             // 
             // label_login
             // 
             this.label_login.AutoSize = true;
-            this.label_login.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_login.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label_login.Location = new System.Drawing.Point(134, 458);
             this.label_login.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_login.Name = "label_login";
             this.label_login.Size = new System.Drawing.Size(69, 25);
             this.label_login.TabIndex = 5;
-            this.label_login.Text = "去登录";
+            this.label_login.Text = "去登錄";
             this.label_login.Click += new System.EventHandler(this.label_login_Click);
             this.label_login.MouseLeave += new System.EventHandler(this.label_sign_MouseLeave);
             this.label_login.MouseHover += new System.EventHandler(this.label_sign_MouseHover);
@@ -304,7 +304,7 @@
             // 
             this.textBox_Rusername.BackColor = System.Drawing.Color.White;
             this.textBox_Rusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Rusername.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Rusername.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Rusername.Location = new System.Drawing.Point(46, 144);
             this.textBox_Rusername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_Rusername.Name = "textBox_Rusername";
@@ -315,7 +315,7 @@
             // 
             this.textBox_Rpwd01.BackColor = System.Drawing.Color.White;
             this.textBox_Rpwd01.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Rpwd01.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Rpwd01.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Rpwd01.Location = new System.Drawing.Point(46, 212);
             this.textBox_Rpwd01.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_Rpwd01.Name = "textBox_Rpwd01";
@@ -327,7 +327,7 @@
             // 
             this.textBox_Rpwd02.BackColor = System.Drawing.Color.White;
             this.textBox_Rpwd02.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Rpwd02.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Rpwd02.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Rpwd02.Location = new System.Drawing.Point(46, 280);
             this.textBox_Rpwd02.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_Rpwd02.Name = "textBox_Rpwd02";
@@ -339,7 +339,7 @@
             // 
             this.textBox_Remail.BackColor = System.Drawing.Color.White;
             this.textBox_Remail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Remail.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Remail.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Remail.Location = new System.Drawing.Point(46, 348);
             this.textBox_Remail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_Remail.Name = "textBox_Remail";
@@ -349,14 +349,14 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("微軟雅黑", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label6.Location = new System.Drawing.Point(127, 21);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(151, 62);
             this.label6.TabIndex = 1;
-            this.label6.Text = "注  册";
+            this.label6.Text = "注  冊";
             // 
             // pictureBox3
             // 
@@ -374,14 +374,14 @@
             this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(144)))), ((int)(((byte)(222)))));
             this.btn_login.FlatAppearance.BorderSize = 0;
             this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_login.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_login.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_login.ForeColor = System.Drawing.Color.White;
             this.btn_login.Location = new System.Drawing.Point(44, 374);
             this.btn_login.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(242, 38);
             this.btn_login.TabIndex = 2;
-            this.btn_login.Text = "登  录";
+            this.btn_login.Text = "登  錄";
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
@@ -406,38 +406,38 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label5.Location = new System.Drawing.Point(40, 267);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 25);
             this.label5.TabIndex = 1;
-            this.label5.Text = "密 码：";
+            this.label5.Text = "密 碼：";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label4.Location = new System.Drawing.Point(40, 186);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 25);
             this.label4.TabIndex = 1;
-            this.label4.Text = "用户名：";
+            this.label4.Text = "用戶名：";
             // 
             // label_register
             // 
             this.label_register.AutoSize = true;
-            this.label_register.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_register.Font = new System.Drawing.Font("微軟雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_register.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label_register.Location = new System.Drawing.Point(126, 441);
             this.label_register.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_register.Name = "label_register";
             this.label_register.Size = new System.Drawing.Size(88, 25);
             this.label_register.TabIndex = 3;
-            this.label_register.Text = "注册账号";
+            this.label_register.Text = "註冊帳號";
             this.label_register.Click += new System.EventHandler(this.label_register_Click);
             this.label_register.MouseLeave += new System.EventHandler(this.label_sign_MouseLeave);
             this.label_register.MouseHover += new System.EventHandler(this.label_sign_MouseHover);
@@ -445,14 +445,14 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("微軟雅黑", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label3.Location = new System.Drawing.Point(125, 52);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(151, 62);
             this.label3.TabIndex = 1;
-            this.label3.Text = "登  录";
+            this.label3.Text = "登  錄";
             // 
             // pictureBox2
             // 
@@ -469,7 +469,7 @@
             // 
             this.textBox_password.BackColor = System.Drawing.Color.White;
             this.textBox_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_password.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_password.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_password.Location = new System.Drawing.Point(44, 297);
             this.textBox_password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_password.Name = "textBox_password";
@@ -481,7 +481,7 @@
             // 
             this.textBox_username.BackColor = System.Drawing.Color.White;
             this.textBox_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_username.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_username.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_username.Location = new System.Drawing.Point(44, 215);
             this.textBox_username.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox_username.Name = "textBox_username";
@@ -506,7 +506,7 @@
             this.btn_minsize.BackColor = System.Drawing.Color.White;
             this.btn_minsize.FlatAppearance.BorderSize = 0;
             this.btn_minsize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_minsize.Font = new System.Drawing.Font("华文隶书", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_minsize.Font = new System.Drawing.Font("華文隸書", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_minsize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.btn_minsize.Location = new System.Drawing.Point(256, 6);
             this.btn_minsize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -520,14 +520,14 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("微軟雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.label8.Location = new System.Drawing.Point(4, 13);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(159, 20);
             this.label8.TabIndex = 1;
-            this.label8.Text = "高校人力资源管理系统";
+            this.label8.Text = "高校人力資源管理系統";
             this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // btn_close
@@ -535,7 +535,7 @@
             this.btn_close.BackColor = System.Drawing.Color.White;
             this.btn_close.FlatAppearance.BorderSize = 0;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_close.Font = new System.Drawing.Font("宋體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_close.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(101)))), ((int)(((byte)(189)))));
             this.btn_close.Location = new System.Drawing.Point(298, 6);
             this.btn_close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);

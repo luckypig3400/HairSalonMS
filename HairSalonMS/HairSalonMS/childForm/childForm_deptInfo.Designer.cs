@@ -65,13 +65,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：部门管理 > 部门信息";
+            this.label1.Text = "位置：部門管理 > 部門資訊";
             // 
             // panel1
             // 
@@ -88,13 +88,13 @@
             this.btn_allDeptInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.btn_allDeptInfo.FlatAppearance.BorderSize = 0;
             this.btn_allDeptInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_allDeptInfo.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_allDeptInfo.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_allDeptInfo.ForeColor = System.Drawing.Color.White;
             this.btn_allDeptInfo.Location = new System.Drawing.Point(13, 133);
             this.btn_allDeptInfo.Name = "btn_allDeptInfo";
             this.btn_allDeptInfo.Size = new System.Drawing.Size(185, 40);
             this.btn_allDeptInfo.TabIndex = 3;
-            this.btn_allDeptInfo.Text = "查看所有部门信息";
+            this.btn_allDeptInfo.Text = "查看所有部門資訊";
             this.btn_allDeptInfo.UseVisualStyleBackColor = false;
             this.btn_allDeptInfo.Click += new System.EventHandler(this.btn_allDeptInfo_Click);
             // 
@@ -103,8 +103,8 @@
             this.comboBox_type.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox_type.FormattingEnabled = true;
             this.comboBox_type.Items.AddRange(new object[] {
-            "按部门编号",
-            "按部门名称"});
+            "按部門編號",
+            "按部門名稱"});
             this.comboBox_type.Location = new System.Drawing.Point(88, 54);
             this.comboBox_type.Name = "comboBox_type";
             this.comboBox_type.Size = new System.Drawing.Size(110, 29);
@@ -114,7 +114,7 @@
             // textBox_str
             // 
             this.textBox_str.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_str.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_str.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_str.Location = new System.Drawing.Point(328, 57);
             this.textBox_str.Name = "textBox_str";
             this.textBox_str.Size = new System.Drawing.Size(141, 26);
@@ -146,19 +146,19 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox2.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(6, 218);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(480, 442);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "部门信息";
+            this.groupBox2.Text = "部門資訊";
             // 
             // textBox_telephone
             // 
             this.textBox_telephone.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_telephone.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_telephone.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_telephone.Location = new System.Drawing.Point(191, 245);
             this.textBox_telephone.Name = "textBox_telephone";
             this.textBox_telephone.Size = new System.Drawing.Size(242, 26);
@@ -174,7 +174,7 @@
             this.btn_modifyDept.Name = "btn_modifyDept";
             this.btn_modifyDept.Size = new System.Drawing.Size(133, 40);
             this.btn_modifyDept.TabIndex = 3;
-            this.btn_modifyDept.Text = "点击修改部门";
+            this.btn_modifyDept.Text = "點擊修改部門";
             this.btn_modifyDept.UseVisualStyleBackColor = false;
             this.btn_modifyDept.Click += new System.EventHandler(this.btn_modifyDept_Click);
             // 
@@ -188,14 +188,14 @@
             this.btn_deleteDept.Name = "btn_deleteDept";
             this.btn_deleteDept.Size = new System.Drawing.Size(134, 40);
             this.btn_deleteDept.TabIndex = 3;
-            this.btn_deleteDept.Text = "删除该部门";
+            this.btn_deleteDept.Text = "刪除該部門";
             this.btn_deleteDept.UseVisualStyleBackColor = false;
             this.btn_deleteDept.Click += new System.EventHandler(this.btn_deleteDept_Click);
             // 
             // textBox_address
             // 
             this.textBox_address.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_address.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_address.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_address.Location = new System.Drawing.Point(191, 177);
             this.textBox_address.Name = "textBox_address";
             this.textBox_address.Size = new System.Drawing.Size(242, 26);
@@ -204,7 +204,7 @@
             // label_deptNo
             // 
             this.label_deptNo.AutoSize = true;
-            this.label_deptNo.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_deptNo.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_deptNo.Location = new System.Drawing.Point(187, 42);
             this.label_deptNo.Name = "label_deptNo";
             this.label_deptNo.Size = new System.Drawing.Size(60, 27);
@@ -214,7 +214,7 @@
             // label_count
             // 
             this.label_count.AutoSize = true;
-            this.label_count.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_count.Location = new System.Drawing.Point(187, 300);
             this.label_count.Name = "label_count";
             this.label_count.Size = new System.Drawing.Size(50, 27);
@@ -228,7 +228,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(138, 21);
             this.label8.TabIndex = 6;
-            this.label8.Text = "该部门员工数量：";
+            this.label8.Text = "該部門員工數量：";
             // 
             // label7
             // 
@@ -237,12 +237,12 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(138, 21);
             this.label7.TabIndex = 6;
-            this.label7.Text = "该部门电话号码：";
+            this.label7.Text = "該部門電話號碼：";
             // 
             // textBox_deptname
             // 
             this.textBox_deptname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_deptname.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_deptname.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_deptname.Location = new System.Drawing.Point(191, 109);
             this.textBox_deptname.Name = "textBox_deptname";
             this.textBox_deptname.Size = new System.Drawing.Size(242, 26);
@@ -255,7 +255,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(138, 21);
             this.label6.TabIndex = 6;
-            this.label6.Text = "该部门所在地址：";
+            this.label6.Text = "該部門所在地址：";
             // 
             // label5
             // 
@@ -264,7 +264,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(90, 21);
             this.label5.TabIndex = 6;
-            this.label5.Text = "部门编号：";
+            this.label5.Text = "部門編號：";
             // 
             // label4
             // 
@@ -273,7 +273,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 21);
             this.label4.TabIndex = 6;
-            this.label4.Text = "部门名称：";
+            this.label4.Text = "部門名稱：";
             // 
             // groupBox1
             // 
@@ -284,14 +284,14 @@
             this.groupBox1.Controls.Add(this.label_sType);
             this.groupBox1.Controls.Add(this.comboBox_type);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(6, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(480, 205);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "快速查询";
+            this.groupBox1.Text = "快速查詢";
             // 
             // btn_selectDept
             // 
@@ -303,7 +303,7 @@
             this.btn_selectDept.Name = "btn_selectDept";
             this.btn_selectDept.Size = new System.Drawing.Size(141, 40);
             this.btn_selectDept.TabIndex = 3;
-            this.btn_selectDept.Text = "点击查询";
+            this.btn_selectDept.Text = "點擊查詢";
             this.btn_selectDept.UseVisualStyleBackColor = false;
             this.btn_selectDept.Click += new System.EventHandler(this.btn_selectDept_Click);
             // 
@@ -314,7 +314,7 @@
             this.label_sType.Name = "label_sType";
             this.label_sType.Size = new System.Drawing.Size(126, 21);
             this.label_sType.TabIndex = 6;
-            this.label_sType.Text = "按部门编号查询:";
+            this.label_sType.Text = "按部門編號查詢:";
             // 
             // label2
             // 
@@ -323,7 +323,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 6;
-            this.label2.Text = "查询类型：";
+            this.label2.Text = "查詢類型：";
             // 
             // panel_datagridview
             // 
@@ -365,7 +365,7 @@
             this.Controls.Add(this.panel_datagridview);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("微軟雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "childForm_deptInfo";
             this.Text = "childForm_deptInfo";

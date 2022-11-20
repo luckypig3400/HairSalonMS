@@ -64,26 +64,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：教师管理 > 教师信息";
+            this.label1.Text = "位置：教師管理 > 教師資訊";
             // 
             // btn_query
             // 
             this.btn_query.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(223)))), ((int)(((byte)(163)))));
             this.btn_query.FlatAppearance.BorderSize = 0;
             this.btn_query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_query.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_query.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_query.ForeColor = System.Drawing.Color.White;
             this.btn_query.Location = new System.Drawing.Point(486, 86);
             this.btn_query.Name = "btn_query";
             this.btn_query.Size = new System.Drawing.Size(141, 40);
             this.btn_query.TabIndex = 31;
-            this.btn_query.Text = "点击查询";
+            this.btn_query.Text = "點擊查詢";
             this.btn_query.UseVisualStyleBackColor = false;
             this.btn_query.Click += new System.EventHandler(this.btn_query_Click);
             // 
@@ -96,7 +96,7 @@
             this.groupBox1.Controls.Add(this.comboBox_dept);
             this.groupBox1.Controls.Add(this.btn_query);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(5, 9);
             this.groupBox1.Name = "groupBox1";
@@ -108,7 +108,7 @@
             // textBox_str
             // 
             this.textBox_str.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_str.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_str.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_str.Location = new System.Drawing.Point(486, 41);
             this.textBox_str.Name = "textBox_str";
             this.textBox_str.Size = new System.Drawing.Size(141, 26);
@@ -117,21 +117,21 @@
             // label_query
             // 
             this.label_query.AutoSize = true;
-            this.label_query.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_query.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_query.Location = new System.Drawing.Point(332, 41);
             this.label_query.Name = "label_query";
             this.label_query.Size = new System.Drawing.Size(150, 25);
             this.label_query.TabIndex = 51;
-            this.label_query.Text = "请选择类型查询:";
+            this.label_query.Text = "請選擇類型查詢:";
             // 
             // comboBox_type
             // 
             this.comboBox_type.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_type.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox_type.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_type.FormattingEnabled = true;
             this.comboBox_type.Items.AddRange(new object[] {
-            "按教师编号",
-            "按教师姓名"});
+            "按教師編號",
+            "按教師姓名"});
             this.comboBox_type.Location = new System.Drawing.Point(149, 93);
             this.comboBox_type.Name = "comboBox_type";
             this.comboBox_type.Size = new System.Drawing.Size(143, 33);
@@ -141,17 +141,17 @@
             // label_queryType
             // 
             this.label_queryType.AutoSize = true;
-            this.label_queryType.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_queryType.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_queryType.Location = new System.Drawing.Point(55, 97);
             this.label_queryType.Name = "label_queryType";
             this.label_queryType.Size = new System.Drawing.Size(107, 25);
             this.label_queryType.TabIndex = 50;
-            this.label_queryType.Text = "查询类型：";
+            this.label_queryType.Text = "查詢類型：";
             // 
             // comboBox_dept
             // 
             this.comboBox_dept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_dept.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox_dept.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_dept.FormattingEnabled = true;
             this.comboBox_dept.Location = new System.Drawing.Point(149, 41);
             this.comboBox_dept.Name = "comboBox_dept";
@@ -161,26 +161,26 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(17, 43);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(145, 25);
             this.label9.TabIndex = 46;
-            this.label9.Text = "教师所在部门：";
+            this.label9.Text = "教師所在部門：";
             // 
             // btn_delete
             // 
             this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.btn_delete.FlatAppearance.BorderSize = 0;
             this.btn_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_delete.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_delete.Font = new System.Drawing.Font("微軟雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_delete.ForeColor = System.Drawing.Color.White;
             this.btn_delete.Location = new System.Drawing.Point(713, 56);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(141, 46);
             this.btn_delete.TabIndex = 31;
-            this.btn_delete.Text = "删  除";
+            this.btn_delete.Text = "刪  除";
             this.btn_delete.UseVisualStyleBackColor = false;
             // 
             // btn_save
@@ -188,7 +188,7 @@
             this.btn_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.btn_save.FlatAppearance.BorderSize = 0;
             this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_save.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_save.Font = new System.Drawing.Font("微軟雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_save.ForeColor = System.Drawing.Color.White;
             this.btn_save.Location = new System.Drawing.Point(882, 56);
             this.btn_save.Name = "btn_save";
@@ -200,13 +200,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
             this.label2.Location = new System.Drawing.Point(695, 135);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(346, 21);
             this.label2.TabIndex = 51;
-            this.label2.Text = "注意：本表可修改和删除教师信息，请谨慎操作";
+            this.label2.Text = "注意：本表可修改和刪除教師資訊，請謹慎操作";
             // 
             // panel_center
             // 
@@ -248,7 +248,7 @@
             this.Controls.Add(this.panel_data);
             this.Controls.Add(this.panel_center);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "childForm_teaInfo";
             this.Text = "childForm_teaInfo";

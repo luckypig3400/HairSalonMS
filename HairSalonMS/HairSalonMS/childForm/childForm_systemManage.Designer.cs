@@ -72,13 +72,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：系统管理";
+            this.label1.Text = "位置：系統管理";
             // 
             // panel1
             // 
@@ -102,20 +102,20 @@
             this.button_addAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.button_addAdmin.FlatAppearance.BorderSize = 0;
             this.button_addAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_addAdmin.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_addAdmin.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_addAdmin.ForeColor = System.Drawing.Color.White;
             this.button_addAdmin.Location = new System.Drawing.Point(189, 438);
             this.button_addAdmin.Name = "button_addAdmin";
             this.button_addAdmin.Size = new System.Drawing.Size(206, 37);
             this.button_addAdmin.TabIndex = 54;
-            this.button_addAdmin.Text = "确认添加";
+            this.button_addAdmin.Text = "確認添加";
             this.button_addAdmin.UseVisualStyleBackColor = false;
             this.button_addAdmin.Click += new System.EventHandler(this.button_addAdmin_Click);
             // 
             // textBox_email
             // 
             this.textBox_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_email.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_email.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_email.Location = new System.Drawing.Point(189, 329);
             this.textBox_email.Name = "textBox_email";
             this.textBox_email.Size = new System.Drawing.Size(206, 26);
@@ -124,17 +124,17 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.Location = new System.Drawing.Point(71, 330);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(112, 25);
             this.label5.TabIndex = 53;
-            this.label5.Text = "管理员邮箱:";
+            this.label5.Text = "管理員郵箱:";
             // 
             // textBox_pwd
             // 
             this.textBox_pwd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_pwd.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_pwd.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_pwd.Location = new System.Drawing.Point(189, 270);
             this.textBox_pwd.Name = "textBox_pwd";
             this.textBox_pwd.Size = new System.Drawing.Size(206, 26);
@@ -143,17 +143,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.Location = new System.Drawing.Point(71, 269);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 25);
             this.label4.TabIndex = 53;
-            this.label4.Text = "管理员密码:";
+            this.label4.Text = "管理員密碼:";
             // 
             // textBox_uname
             // 
             this.textBox_uname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_uname.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_uname.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_uname.Location = new System.Drawing.Point(189, 211);
             this.textBox_uname.Name = "textBox_uname";
             this.textBox_uname.Size = new System.Drawing.Size(206, 26);
@@ -162,22 +162,22 @@
             // label_query
             // 
             this.label_query.AutoSize = true;
-            this.label_query.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_query.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_query.Location = new System.Drawing.Point(52, 212);
             this.label_query.Name = "label_query";
             this.label_query.Size = new System.Drawing.Size(131, 25);
             this.label_query.TabIndex = 53;
-            this.label_query.Text = "管理员用户名:";
+            this.label_query.Text = "管理員用戶名:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("微軟雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(158, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 39);
             this.label2.TabIndex = 0;
-            this.label2.Text = "添加管理员";
+            this.label2.Text = "添加管理員";
             // 
             // panel2
             // 
@@ -199,26 +199,26 @@
             this.button_done.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.button_done.FlatAppearance.BorderSize = 0;
             this.button_done.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_done.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_done.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_done.ForeColor = System.Drawing.Color.White;
             this.button_done.Location = new System.Drawing.Point(254, 520);
             this.button_done.Name = "button_done";
             this.button_done.Size = new System.Drawing.Size(250, 37);
             this.button_done.TabIndex = 54;
-            this.button_done.Text = "确认授权";
+            this.button_done.Text = "確認授權";
             this.button_done.UseVisualStyleBackColor = false;
             this.button_done.Click += new System.EventHandler(this.button_done_Click);
             // 
             // comboBox_role
             // 
             this.comboBox_role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox_role.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox_role.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_role.FormattingEnabled = true;
             this.comboBox_role.Items.AddRange(new object[] {
-            "管理员",
-            "教师",
-            "教职工",
-            "游客"});
+            "管理員",
+            "教師",
+            "教職工",
+            "遊客"});
             this.comboBox_role.Location = new System.Drawing.Point(254, 182);
             this.comboBox_role.Name = "comboBox_role";
             this.comboBox_role.Size = new System.Drawing.Size(250, 29);
@@ -228,32 +228,32 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("微軟雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(223, 69);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 39);
             this.label3.TabIndex = 0;
-            this.label3.Text = "权限管理";
+            this.label3.Text = "許可權管理";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.Location = new System.Drawing.Point(62, 266);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(202, 25);
             this.label7.TabIndex = 53;
-            this.label7.Text = "请勾选要授予的权限：";
+            this.label7.Text = "請勾選要授予的許可權：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(62, 181);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(188, 25);
             this.label6.TabIndex = 53;
-            this.label6.Text = "请选择要授权的角色:";
+            this.label6.Text = "請選擇要授權的角色:";
             // 
             // groupBox1
             // 
@@ -265,52 +265,52 @@
             this.groupBox1.Controls.Add(this.checkBox_salary);
             this.groupBox1.Controls.Add(this.checkBox_tea);
             this.groupBox1.Controls.Add(this.checkBox_dept);
-            this.groupBox1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.groupBox1.Location = new System.Drawing.Point(254, 266);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(250, 196);
             this.groupBox1.TabIndex = 55;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "权限分配";
+            this.groupBox1.Text = "許可權分配";
             // 
             // checkBox_dept
             // 
             this.checkBox_dept.AutoSize = true;
-            this.checkBox_dept.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_dept.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_dept.Location = new System.Drawing.Point(18, 35);
             this.checkBox_dept.Name = "checkBox_dept";
             this.checkBox_dept.Size = new System.Drawing.Size(93, 25);
             this.checkBox_dept.TabIndex = 56;
-            this.checkBox_dept.Text = "部门管理";
+            this.checkBox_dept.Text = "部門管理";
             this.checkBox_dept.UseVisualStyleBackColor = true;
             // 
             // checkBox_tea
             // 
             this.checkBox_tea.AutoSize = true;
-            this.checkBox_tea.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_tea.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_tea.Location = new System.Drawing.Point(18, 77);
             this.checkBox_tea.Name = "checkBox_tea";
             this.checkBox_tea.Size = new System.Drawing.Size(93, 25);
             this.checkBox_tea.TabIndex = 56;
-            this.checkBox_tea.Text = "教师管理";
+            this.checkBox_tea.Text = "教師管理";
             this.checkBox_tea.UseVisualStyleBackColor = true;
             // 
             // checkBox_emp
             // 
             this.checkBox_emp.AutoSize = true;
-            this.checkBox_emp.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_emp.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_emp.Location = new System.Drawing.Point(18, 119);
             this.checkBox_emp.Name = "checkBox_emp";
             this.checkBox_emp.Size = new System.Drawing.Size(109, 25);
             this.checkBox_emp.TabIndex = 56;
-            this.checkBox_emp.Text = "教职工管理";
+            this.checkBox_emp.Text = "教職工管理";
             this.checkBox_emp.UseVisualStyleBackColor = true;
             // 
             // checkBox_atten
             // 
             this.checkBox_atten.AutoSize = true;
-            this.checkBox_atten.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_atten.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_atten.Location = new System.Drawing.Point(18, 161);
             this.checkBox_atten.Name = "checkBox_atten";
             this.checkBox_atten.Size = new System.Drawing.Size(93, 25);
@@ -321,34 +321,34 @@
             // checkBox_salary
             // 
             this.checkBox_salary.AutoSize = true;
-            this.checkBox_salary.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_salary.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_salary.Location = new System.Drawing.Point(140, 35);
             this.checkBox_salary.Name = "checkBox_salary";
             this.checkBox_salary.Size = new System.Drawing.Size(93, 25);
             this.checkBox_salary.TabIndex = 56;
-            this.checkBox_salary.Text = "薪资管理";
+            this.checkBox_salary.Text = "薪資管理";
             this.checkBox_salary.UseVisualStyleBackColor = true;
             // 
             // checkBox_apply
             // 
             this.checkBox_apply.AutoSize = true;
-            this.checkBox_apply.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_apply.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_apply.Location = new System.Drawing.Point(140, 77);
             this.checkBox_apply.Name = "checkBox_apply";
             this.checkBox_apply.Size = new System.Drawing.Size(93, 25);
             this.checkBox_apply.TabIndex = 56;
-            this.checkBox_apply.Text = "申请门户";
+            this.checkBox_apply.Text = "申請門戶";
             this.checkBox_apply.UseVisualStyleBackColor = true;
             // 
             // checkBox_info
             // 
             this.checkBox_info.AutoSize = true;
-            this.checkBox_info.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.checkBox_info.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.checkBox_info.Location = new System.Drawing.Point(140, 119);
             this.checkBox_info.Name = "checkBox_info";
             this.checkBox_info.Size = new System.Drawing.Size(93, 25);
             this.checkBox_info.TabIndex = 56;
-            this.checkBox_info.Text = "个人信息";
+            this.checkBox_info.Text = "個人資訊";
             this.checkBox_info.UseVisualStyleBackColor = true;
             // 
             // childForm_systemManage
@@ -358,7 +358,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_top);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Font = new System.Drawing.Font("微軟雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "childForm_systemManage";
             this.Text = "childForm_systemManage";

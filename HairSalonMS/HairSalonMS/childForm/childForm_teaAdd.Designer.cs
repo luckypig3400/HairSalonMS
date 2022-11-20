@@ -90,20 +90,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：教师管理 > 添加教师";
+            this.label1.Text = "位置：教師管理 > 添加教師";
             // 
             // groupBox_gender
             // 
             this.groupBox_gender.Controls.Add(this.radioButton_woman);
             this.groupBox_gender.Controls.Add(this.radioButton_man);
             this.groupBox_gender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox_gender.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox_gender.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox_gender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox_gender.Location = new System.Drawing.Point(276, 145);
             this.groupBox_gender.Name = "groupBox_gender";
@@ -114,7 +114,7 @@
             // radioButton_woman
             // 
             this.radioButton_woman.AutoSize = true;
-            this.radioButton_woman.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton_woman.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_woman.Location = new System.Drawing.Point(86, 19);
             this.radioButton_woman.Name = "radioButton_woman";
             this.radioButton_woman.Size = new System.Drawing.Size(44, 25);
@@ -126,7 +126,7 @@
             // radioButton_man
             // 
             this.radioButton_man.AutoSize = true;
-            this.radioButton_man.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton_man.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButton_man.Location = new System.Drawing.Point(22, 19);
             this.radioButton_man.Name = "radioButton_man";
             this.radioButton_man.Size = new System.Drawing.Size(44, 25);
@@ -138,7 +138,7 @@
             // comboBox_dept
             // 
             this.comboBox_dept.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_dept.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox_dept.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_dept.FormattingEnabled = true;
             this.comboBox_dept.Location = new System.Drawing.Point(278, 401);
             this.comboBox_dept.Name = "comboBox_dept";
@@ -149,7 +149,7 @@
             // numericUpDown_No
             // 
             this.numericUpDown_No.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown_No.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.numericUpDown_No.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.numericUpDown_No.Location = new System.Drawing.Point(276, 30);
             this.numericUpDown_No.Maximum = new decimal(new int[] {
             99999999,
@@ -163,7 +163,7 @@
             // numericUpDown_bankCardNo
             // 
             this.numericUpDown_bankCardNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown_bankCardNo.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.numericUpDown_bankCardNo.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.numericUpDown_bankCardNo.Location = new System.Drawing.Point(685, 144);
             this.numericUpDown_bankCardNo.Maximum = new decimal(new int[] {
             -1486618625,
@@ -177,7 +177,7 @@
             // numericUpDown_ID
             // 
             this.numericUpDown_ID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown_ID.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.numericUpDown_ID.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.numericUpDown_ID.Location = new System.Drawing.Point(685, 87);
             this.numericUpDown_ID.Maximum = new decimal(new int[] {
             -1486618625,
@@ -191,7 +191,7 @@
             // numericUpDown_age
             // 
             this.numericUpDown_age.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown_age.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.numericUpDown_age.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.numericUpDown_age.Location = new System.Drawing.Point(276, 227);
             this.numericUpDown_age.Name = "numericUpDown_age";
             this.numericUpDown_age.Size = new System.Drawing.Size(143, 29);
@@ -202,20 +202,20 @@
             this.btn_teaAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(223)))), ((int)(((byte)(163)))));
             this.btn_teaAdd.FlatAppearance.BorderSize = 0;
             this.btn_teaAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_teaAdd.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_teaAdd.Font = new System.Drawing.Font("微軟雅黑", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_teaAdd.ForeColor = System.Drawing.Color.White;
             this.btn_teaAdd.Location = new System.Drawing.Point(811, 20);
             this.btn_teaAdd.Name = "btn_teaAdd";
             this.btn_teaAdd.Size = new System.Drawing.Size(220, 41);
             this.btn_teaAdd.TabIndex = 30;
-            this.btn_teaAdd.Text = "点击添加教师";
+            this.btn_teaAdd.Text = "點擊添加教師";
             this.btn_teaAdd.UseVisualStyleBackColor = false;
             this.btn_teaAdd.Click += new System.EventHandler(this.btn_teaAdd_Click);
             // 
             // textBox_stuS
             // 
             this.textBox_stuS.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_stuS.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_stuS.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_stuS.Location = new System.Drawing.Point(276, 286);
             this.textBox_stuS.Name = "textBox_stuS";
             this.textBox_stuS.Size = new System.Drawing.Size(143, 26);
@@ -224,29 +224,29 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(167, 403);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(107, 25);
             this.label9.TabIndex = 40;
-            this.label9.Text = "入职部门：";
+            this.label9.Text = "入職部門：";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label7.Location = new System.Drawing.Point(199, 164);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 25);
             this.label7.TabIndex = 39;
-            this.label7.Text = "性 别：";
+            this.label7.Text = "性 別：";
             // 
             // textBox_Name
             // 
             this.textBox_Name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_Name.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_Name.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_Name.Location = new System.Drawing.Point(276, 89);
             this.textBox_Name.Name = "textBox_Name";
             this.textBox_Name.Size = new System.Drawing.Size(143, 26);
@@ -255,62 +255,62 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label8.Location = new System.Drawing.Point(574, 144);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(107, 25);
             this.label8.TabIndex = 36;
-            this.label8.Text = "银行卡号：";
+            this.label8.Text = "銀行卡號：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(198, 286);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 25);
             this.label3.TabIndex = 33;
-            this.label3.Text = "学 籍：";
+            this.label3.Text = "學 籍：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label6.Location = new System.Drawing.Point(198, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 25);
             this.label6.TabIndex = 35;
-            this.label6.Text = "年 龄：";
+            this.label6.Text = "年 齡：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(555, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 25);
             this.label2.TabIndex = 38;
-            this.label2.Text = "身份证号码：";
+            this.label2.Text = "身份證號碼：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label5.Location = new System.Drawing.Point(165, 32);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 25);
             this.label5.TabIndex = 34;
-            this.label5.Text = "教师编号：";
+            this.label5.Text = "教師編號：";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label4.Location = new System.Drawing.Point(198, 90);
             this.label4.Name = "label4";
@@ -321,22 +321,22 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label10.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label10.Location = new System.Drawing.Point(199, 343);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(75, 25);
             this.label10.TabIndex = 40;
-            this.label10.Text = "学 历：";
+            this.label10.Text = "學 曆：";
             // 
             // comboBox_edu
             // 
             this.comboBox_edu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox_edu.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox_edu.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.comboBox_edu.FormattingEnabled = true;
             this.comboBox_edu.Items.AddRange(new object[] {
             "本科",
-            "硕士",
+            "碩士",
             "博士",
             "院士",
             "其他"});
@@ -355,7 +355,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label11.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label11.Location = new System.Drawing.Point(608, 194);
             this.label11.Name = "label11";
@@ -366,18 +366,18 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label12.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label12.Location = new System.Drawing.Point(575, 34);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(107, 25);
             this.label12.TabIndex = 33;
-            this.label12.Text = "授课科目：";
+            this.label12.Text = "授課科目：";
             // 
             // textBox_teaching
             // 
             this.textBox_teaching.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_teaching.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_teaching.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_teaching.Location = new System.Drawing.Point(685, 33);
             this.textBox_teaching.Name = "textBox_teaching";
             this.textBox_teaching.Size = new System.Drawing.Size(220, 26);
@@ -429,7 +429,7 @@
             // textBox_uName
             // 
             this.textBox_uName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_uName.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_uName.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_uName.Location = new System.Drawing.Point(94, 42);
             this.textBox_uName.Name = "textBox_uName";
             this.textBox_uName.Size = new System.Drawing.Size(143, 26);
@@ -438,18 +438,18 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label13.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label13.Location = new System.Drawing.Point(16, 42);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(88, 25);
             this.label13.TabIndex = 33;
-            this.label13.Text = "用户名：";
+            this.label13.Text = "用戶名：";
             // 
             // textBox_uPwd
             // 
             this.textBox_uPwd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_uPwd.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_uPwd.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_uPwd.Location = new System.Drawing.Point(341, 43);
             this.textBox_uPwd.Name = "textBox_uPwd";
             this.textBox_uPwd.Size = new System.Drawing.Size(143, 26);
@@ -458,18 +458,18 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label14.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label14.Location = new System.Drawing.Point(272, 43);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(81, 25);
             this.label14.TabIndex = 33;
-            this.label14.Text = "密  码：";
+            this.label14.Text = "密  碼：";
             // 
             // textBox_email
             // 
             this.textBox_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_email.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_email.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_email.Location = new System.Drawing.Point(579, 42);
             this.textBox_email.Name = "textBox_email";
             this.textBox_email.Size = new System.Drawing.Size(143, 26);
@@ -478,13 +478,13 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label15.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label15.Location = new System.Drawing.Point(510, 42);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(81, 25);
             this.label15.TabIndex = 33;
-            this.label15.Text = "邮  箱：";
+            this.label15.Text = "郵  箱：";
             // 
             // groupBox2
             // 
@@ -494,29 +494,29 @@
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox2.Font = new System.Drawing.Font("宋體", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.Location = new System.Drawing.Point(170, 461);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(735, 102);
             this.groupBox2.TabIndex = 47;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "教师登录信息";
+            this.groupBox2.Text = "教師登錄資訊";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label16.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label16.Location = new System.Drawing.Point(608, 401);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(164, 25);
             this.label16.TabIndex = 39;
-            this.label16.Text = "您录入的生日是：";
+            this.label16.Text = "您錄入的生日是：";
             // 
             // label_birthday
             // 
             this.label_birthday.AutoSize = true;
-            this.label_birthday.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_birthday.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_birthday.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label_birthday.Location = new System.Drawing.Point(769, 401);
             this.label_birthday.Name = "label_birthday";

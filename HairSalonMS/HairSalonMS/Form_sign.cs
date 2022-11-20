@@ -19,7 +19,7 @@ namespace SHRMS
             panel_signUp.Visible = false;
         }
 
-        [DllImport("user32.dll")]//拖动无窗体的控件
+        [DllImport("user32.dll")]//拖動無表單的控制項
         public static extern bool ReleaseCapture();
         [DllImport("user32.dll")]
         public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
@@ -29,7 +29,7 @@ namespace SHRMS
 
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
-            //拖动窗体
+            //拖動表單
             ReleaseCapture();
             SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);
         }
@@ -94,14 +94,14 @@ namespace SHRMS
             //MessageBox.Show(sql_str);
             MySqlCommand mySqlCommand = new MySqlCommand(sql_str, mySqlConnection);
             MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
-           
+
             if (mySqlDataReader.Read())
             {
                 rolename = mySqlDataReader["role"].ToString();
                 string uname_temp = mySqlDataReader["username"].ToString();
                 mySqlDataReader.Close();
                 GlobalData.username = uname_temp;
-               
+
                 this.Hide();
                 Form_Main frm_main = new Form_Main();
                 frm_main.Tag = FindForm();
@@ -126,7 +126,7 @@ namespace SHRMS
             }
             else
             {
-                MessageBox.Show("您输入的用户名或密码有误，请确认后再输入！");
+                MessageBox.Show("您輸入的用戶名或密碼有誤，請確認後再輸入！");
             }
 
             mySqlConnection.Close();
@@ -141,7 +141,7 @@ namespace SHRMS
 
             if (name_r == "" || pwd01_r == "" || pwd02_r == "" || email_r == "")
             {
-                MessageBox.Show("检查数据合法性");
+                MessageBox.Show("檢查資料合法性");
                 return;
             }
             else
@@ -158,24 +158,24 @@ namespace SHRMS
                                 string conStr = GlobalData.connectionStr;
                                 MySqlConnection mySqlConnection = new MySqlConnection(conStr);
                                 mySqlConnection.Open();
-                                string sql_str = "insert into t_user(username,password,email,role) values('" + name_r + "','" + pwd01_r + "','" + email_r + "','游客');";
+                                string sql_str = "insert into t_user(username,password,email,role) values('" + name_r + "','" + pwd01_r + "','" + email_r + "','遊客');";
                                 //MessageBox.Show(sql_str);
                                 MySqlCommand mySqlCommand = new MySqlCommand(sql_str, mySqlConnection);
                                 mySqlCommand.ExecuteNonQuery();
-                                MessageBox.Show("注册成功！快去登录吧！", "注册成功");
+                                MessageBox.Show("註冊成功！快去登錄吧！", "註冊成功");
                             }
                             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
                         }
                         else
                         {
-                            MessageBox.Show("您两次输入的密码不相同，请确认后再输入");
+                            MessageBox.Show("您兩次輸入的密碼不相同，請確認後再輸入");
                             return;
                         }
                     }
                     else
                     {
                         // Match attempt failed
-                        MessageBox.Show("请输入正确的邮箱地址！", "邮箱地址不合法");
+                        MessageBox.Show("請輸入正確的郵箱位址！", "郵箱地址不合法");
                         return;
                     }
                 }
@@ -187,3 +187,4 @@ namespace SHRMS
         }
     }
 }
+

@@ -39,7 +39,6 @@
             this.panel_bigMenu = new System.Windows.Forms.Panel();
             this.btn_systemManage = new System.Windows.Forms.Button();
             this.btn_personalInfo = new System.Windows.Forms.Button();
-            this.btn_apply = new System.Windows.Forms.Button();
             this.panel_salarySubMenu = new System.Windows.Forms.Panel();
             this.sbtn_salaryReport = new System.Windows.Forms.Button();
             this.sbtn_salaryAdd = new System.Windows.Forms.Button();
@@ -74,6 +73,8 @@
             this.label_logOut = new System.Windows.Forms.Label();
             this.panel_childForm = new System.Windows.Forms.Panel();
             this.timer_time = new System.Windows.Forms.Timer(this.components);
+            this.btn_apply = new System.Windows.Forms.Button();
+            this.sbtn_product_manage = new System.Windows.Forms.Button();
             this.panel_top.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_bigMenu.SuspendLayout();
@@ -231,25 +232,6 @@
             this.btn_personalInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_personalInfo.UseVisualStyleBackColor = true;
             this.btn_personalInfo.Click += new System.EventHandler(this.btn_personalInfo_Click);
-            // 
-            // btn_apply
-            // 
-            this.btn_apply.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_apply.FlatAppearance.BorderSize = 0;
-            this.btn_apply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_apply.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_apply.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_apply.Image = ((System.Drawing.Image)(resources.GetObject("btn_apply.Image")));
-            this.btn_apply.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_apply.Location = new System.Drawing.Point(0, 1080);
-            this.btn_apply.Name = "btn_apply";
-            this.btn_apply.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_apply.Size = new System.Drawing.Size(203, 55);
-            this.btn_apply.TabIndex = 12;
-            this.btn_apply.Text = "  申請門戶";
-            this.btn_apply.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_apply.UseVisualStyleBackColor = true;
-            this.btn_apply.Click += new System.EventHandler(this.btn_apply_Click);
             // 
             // panel_salarySubMenu
             // 
@@ -495,7 +477,7 @@
             this.sbtn_teaAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_teaAdd.Size = new System.Drawing.Size(203, 50);
             this.sbtn_teaAdd.TabIndex = 2;
-            this.sbtn_teaAdd.Text = "添加教師";
+            this.sbtn_teaAdd.Text = "新增員工";
             this.sbtn_teaAdd.UseVisualStyleBackColor = true;
             this.sbtn_teaAdd.Click += new System.EventHandler(this.sbtn_teaAdd_Click);
             // 
@@ -511,7 +493,7 @@
             this.sbtn_teaFamily.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_teaFamily.Size = new System.Drawing.Size(203, 50);
             this.sbtn_teaFamily.TabIndex = 1;
-            this.sbtn_teaFamily.Text = "員工";
+            this.sbtn_teaFamily.Text = "員工業績分析";
             this.sbtn_teaFamily.UseVisualStyleBackColor = true;
             this.sbtn_teaFamily.Click += new System.EventHandler(this.sbtn_teaFamily_Click);
             // 
@@ -527,7 +509,7 @@
             this.sbtn_teaInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_teaInfo.Size = new System.Drawing.Size(203, 50);
             this.sbtn_teaInfo.TabIndex = 0;
-            this.sbtn_teaInfo.Text = "查詢員工資料";
+            this.sbtn_teaInfo.Text = "查詢/編輯員工";
             this.sbtn_teaInfo.UseVisualStyleBackColor = true;
             this.sbtn_teaInfo.Click += new System.EventHandler(this.sbtn_teaInfo_Click);
             // 
@@ -554,6 +536,7 @@
             // 
             this.panel_deptSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_deptSubMenu.Controls.Add(this.sbtn_deptAdd);
+            this.panel_deptSubMenu.Controls.Add(this.sbtn_product_manage);
             this.panel_deptSubMenu.Controls.Add(this.sbtn_deptInfo);
             this.panel_deptSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_deptSubMenu.Location = new System.Drawing.Point(0, 210);
@@ -568,7 +551,7 @@
             this.sbtn_deptAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sbtn_deptAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.sbtn_deptAdd.ForeColor = System.Drawing.Color.LightGray;
-            this.sbtn_deptAdd.Location = new System.Drawing.Point(0, 50);
+            this.sbtn_deptAdd.Location = new System.Drawing.Point(0, 100);
             this.sbtn_deptAdd.Name = "sbtn_deptAdd";
             this.sbtn_deptAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.sbtn_deptAdd.Size = new System.Drawing.Size(203, 50);
@@ -737,6 +720,40 @@
             // 
             this.timer_time.Tick += new System.EventHandler(this.timer_time_Tick);
             // 
+            // btn_apply
+            // 
+            this.btn_apply.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_apply.FlatAppearance.BorderSize = 0;
+            this.btn_apply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_apply.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_apply.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_apply.Image = ((System.Drawing.Image)(resources.GetObject("btn_apply.Image")));
+            this.btn_apply.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_apply.Location = new System.Drawing.Point(0, 1080);
+            this.btn_apply.Name = "btn_apply";
+            this.btn_apply.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_apply.Size = new System.Drawing.Size(203, 55);
+            this.btn_apply.TabIndex = 12;
+            this.btn_apply.Text = "  申請門戶";
+            this.btn_apply.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_apply.UseVisualStyleBackColor = true;
+            this.btn_apply.Click += new System.EventHandler(this.btn_apply_Click);
+            // 
+            // sbtn_product_manage
+            // 
+            this.sbtn_product_manage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sbtn_product_manage.FlatAppearance.BorderSize = 0;
+            this.sbtn_product_manage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sbtn_product_manage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.sbtn_product_manage.ForeColor = System.Drawing.Color.LightGray;
+            this.sbtn_product_manage.Location = new System.Drawing.Point(0, 50);
+            this.sbtn_product_manage.Name = "sbtn_product_manage";
+            this.sbtn_product_manage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.sbtn_product_manage.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_product_manage.TabIndex = 2;
+            this.sbtn_product_manage.Text = "產品基本資料";
+            this.sbtn_product_manage.UseVisualStyleBackColor = true;
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -811,7 +828,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox2;
         public System.Windows.Forms.Button btn_dept;
-        public System.Windows.Forms.Button btn_apply;
         public System.Windows.Forms.Button btn_salary;
         public System.Windows.Forms.Button btn_attendance;
         public System.Windows.Forms.Button btn_emp;
@@ -819,6 +835,7 @@
         public System.Windows.Forms.Button btn_personalInfo;
         public System.Windows.Forms.Button btn_systemManage;
         public System.Windows.Forms.Label label_userRole;
-
+        public System.Windows.Forms.Button btn_apply;
+        private System.Windows.Forms.Button sbtn_product_manage;
     }
 }

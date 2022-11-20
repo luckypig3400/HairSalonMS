@@ -204,7 +204,7 @@
             this.btn_systemManage.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_systemManage.Image = ((System.Drawing.Image)(resources.GetObject("btn_systemManage.Image")));
             this.btn_systemManage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_systemManage.Location = new System.Drawing.Point(0, 1190);
+            this.btn_systemManage.Location = new System.Drawing.Point(0, 1225);
             this.btn_systemManage.Name = "btn_systemManage";
             this.btn_systemManage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_systemManage.Size = new System.Drawing.Size(203, 55);
@@ -223,7 +223,7 @@
             this.btn_personalInfo.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_personalInfo.Image = ((System.Drawing.Image)(resources.GetObject("btn_personalInfo.Image")));
             this.btn_personalInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1135);
+            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1170);
             this.btn_personalInfo.Name = "btn_personalInfo";
             this.btn_personalInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_personalInfo.Size = new System.Drawing.Size(203, 55);
@@ -235,12 +235,13 @@
             // 
             // panel_salarySubMenu
             // 
+            this.panel_salarySubMenu.AutoSize = true;
             this.panel_salarySubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_salarySubMenu.Controls.Add(this.sbtn_salaryReport);
             this.panel_salarySubMenu.Controls.Add(this.sbtn_salaryAdd);
             this.panel_salarySubMenu.Controls.Add(this.sbtn_salaryInfo);
             this.panel_salarySubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_salarySubMenu.Location = new System.Drawing.Point(0, 930);
+            this.panel_salarySubMenu.Location = new System.Drawing.Point(0, 965);
             this.panel_salarySubMenu.Name = "panel_salarySubMenu";
             this.panel_salarySubMenu.Size = new System.Drawing.Size(203, 150);
             this.panel_salarySubMenu.TabIndex = 11;
@@ -302,7 +303,7 @@
             this.btn_salary.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_salary.Image = ((System.Drawing.Image)(resources.GetObject("btn_salary.Image")));
             this.btn_salary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_salary.Location = new System.Drawing.Point(0, 875);
+            this.btn_salary.Location = new System.Drawing.Point(0, 910);
             this.btn_salary.Name = "btn_salary";
             this.btn_salary.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_salary.Size = new System.Drawing.Size(203, 55);
@@ -314,11 +315,12 @@
             // 
             // panel_attendanceSubMenu
             // 
+            this.panel_attendanceSubMenu.AutoSize = true;
             this.panel_attendanceSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_attendanceSubMenu.Controls.Add(this.sbtn_attendanceAdd);
             this.panel_attendanceSubMenu.Controls.Add(this.sbtn_attendanceInfo);
             this.panel_attendanceSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_attendanceSubMenu.Location = new System.Drawing.Point(0, 775);
+            this.panel_attendanceSubMenu.Location = new System.Drawing.Point(0, 810);
             this.panel_attendanceSubMenu.Name = "panel_attendanceSubMenu";
             this.panel_attendanceSubMenu.Size = new System.Drawing.Size(203, 100);
             this.panel_attendanceSubMenu.TabIndex = 9;
@@ -364,7 +366,7 @@
             this.btn_attendance.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_attendance.Image = ((System.Drawing.Image)(resources.GetObject("btn_attendance.Image")));
             this.btn_attendance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_attendance.Location = new System.Drawing.Point(0, 720);
+            this.btn_attendance.Location = new System.Drawing.Point(0, 755);
             this.btn_attendance.Name = "btn_attendance";
             this.btn_attendance.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_attendance.Size = new System.Drawing.Size(203, 55);
@@ -376,12 +378,13 @@
             // 
             // panel_empSubMenu
             // 
+            this.panel_empSubMenu.AutoSize = true;
             this.panel_empSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_empSubMenu.Controls.Add(this.sbtn_empAdd);
             this.panel_empSubMenu.Controls.Add(this.sbtn_empFamily);
             this.panel_empSubMenu.Controls.Add(this.sbtn_empInfo);
             this.panel_empSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_empSubMenu.Location = new System.Drawing.Point(0, 570);
+            this.panel_empSubMenu.Location = new System.Drawing.Point(0, 605);
             this.panel_empSubMenu.Name = "panel_empSubMenu";
             this.panel_empSubMenu.Size = new System.Drawing.Size(203, 150);
             this.panel_empSubMenu.TabIndex = 7;
@@ -443,7 +446,7 @@
             this.btn_emp.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_emp.Image = ((System.Drawing.Image)(resources.GetObject("btn_emp.Image")));
             this.btn_emp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_emp.Location = new System.Drawing.Point(0, 515);
+            this.btn_emp.Location = new System.Drawing.Point(0, 550);
             this.btn_emp.Name = "btn_emp";
             this.btn_emp.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_emp.Size = new System.Drawing.Size(203, 55);
@@ -455,12 +458,13 @@
             // 
             // panel_teacherSubMenu
             // 
+            this.panel_teacherSubMenu.AutoSize = true;
             this.panel_teacherSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_teacherSubMenu.Controls.Add(this.sbtn_teaAdd);
             this.panel_teacherSubMenu.Controls.Add(this.sbtn_teaFamily);
             this.panel_teacherSubMenu.Controls.Add(this.sbtn_teaInfo);
             this.panel_teacherSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_teacherSubMenu.Location = new System.Drawing.Point(0, 365);
+            this.panel_teacherSubMenu.Location = new System.Drawing.Point(0, 400);
             this.panel_teacherSubMenu.Name = "panel_teacherSubMenu";
             this.panel_teacherSubMenu.Size = new System.Drawing.Size(203, 150);
             this.panel_teacherSubMenu.TabIndex = 5;
@@ -522,7 +526,7 @@
             this.btn_teacher.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_teacher.Image = ((System.Drawing.Image)(resources.GetObject("btn_teacher.Image")));
             this.btn_teacher.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_teacher.Location = new System.Drawing.Point(0, 310);
+            this.btn_teacher.Location = new System.Drawing.Point(0, 345);
             this.btn_teacher.Name = "btn_teacher";
             this.btn_teacher.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_teacher.Size = new System.Drawing.Size(203, 55);
@@ -534,14 +538,15 @@
             // 
             // panel_deptSubMenu
             // 
+            this.panel_deptSubMenu.AutoSize = true;
             this.panel_deptSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_deptSubMenu.Controls.Add(this.sbtn_deptAdd);
             this.panel_deptSubMenu.Controls.Add(this.sbtn_product_manage);
             this.panel_deptSubMenu.Controls.Add(this.sbtn_deptInfo);
             this.panel_deptSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_deptSubMenu.Location = new System.Drawing.Point(0, 210);
+            this.panel_deptSubMenu.Location = new System.Drawing.Point(0, 195);
             this.panel_deptSubMenu.Name = "panel_deptSubMenu";
-            this.panel_deptSubMenu.Size = new System.Drawing.Size(203, 100);
+            this.panel_deptSubMenu.Size = new System.Drawing.Size(203, 150);
             this.panel_deptSubMenu.TabIndex = 3;
             // 
             // sbtn_deptAdd
@@ -585,7 +590,7 @@
             this.btn_dept.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_dept.Image = ((System.Drawing.Image)(resources.GetObject("btn_dept.Image")));
             this.btn_dept.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_dept.Location = new System.Drawing.Point(0, 155);
+            this.btn_dept.Location = new System.Drawing.Point(0, 140);
             this.btn_dept.Name = "btn_dept";
             this.btn_dept.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_dept.Size = new System.Drawing.Size(203, 55);
@@ -604,7 +609,7 @@
             this.btn_home.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_home.Image = ((System.Drawing.Image)(resources.GetObject("btn_home.Image")));
             this.btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_home.Location = new System.Drawing.Point(0, 100);
+            this.btn_home.Location = new System.Drawing.Point(0, 85);
             this.btn_home.Name = "btn_home";
             this.btn_home.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_home.Size = new System.Drawing.Size(203, 55);
@@ -616,12 +621,13 @@
             // 
             // panel_logo
             // 
+            this.panel_logo.AutoSize = true;
             this.panel_logo.Controls.Add(this.label1);
             this.panel_logo.Controls.Add(this.pictureBox1);
             this.panel_logo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_logo.Location = new System.Drawing.Point(0, 0);
             this.panel_logo.Name = "panel_logo";
-            this.panel_logo.Size = new System.Drawing.Size(203, 100);
+            this.panel_logo.Size = new System.Drawing.Size(203, 85);
             this.panel_logo.TabIndex = 0;
             // 
             // label1
@@ -729,7 +735,7 @@
             this.btn_apply.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_apply.Image = ((System.Drawing.Image)(resources.GetObject("btn_apply.Image")));
             this.btn_apply.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_apply.Location = new System.Drawing.Point(0, 1080);
+            this.btn_apply.Location = new System.Drawing.Point(0, 1115);
             this.btn_apply.Name = "btn_apply";
             this.btn_apply.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btn_apply.Size = new System.Drawing.Size(203, 55);
@@ -776,6 +782,7 @@
             this.panel_top.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_bigMenu.ResumeLayout(false);
+            this.panel_bigMenu.PerformLayout();
             this.panel_salarySubMenu.ResumeLayout(false);
             this.panel_attendanceSubMenu.ResumeLayout(false);
             this.panel_empSubMenu.ResumeLayout(false);

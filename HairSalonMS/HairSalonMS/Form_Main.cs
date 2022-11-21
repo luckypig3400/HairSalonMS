@@ -200,17 +200,17 @@ namespace SHRMS
             openChildForm(frm);
         }
 
-        private void sbtn_deptInfo_Click(object sender, EventArgs e)
+        private void sbtn_providerInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_providerInfo);
-            childForm_deptInfo frm = new childForm_deptInfo();
+            childForm_providerInfo frm = new childForm_providerInfo();
             openChildForm(frm);
         }
 
-        private void sbtn_deptAdd_Click(object sender, EventArgs e)
+        private void sbtn_serviceManage_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_serviceManage);
-            childForm_deptAdd frm = new childForm_deptAdd();
+            childForm_serviceManage frm = new childForm_serviceManage();
             openChildForm(frm);
         }
 

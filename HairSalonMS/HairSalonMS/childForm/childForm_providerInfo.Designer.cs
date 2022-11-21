@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_deptInfo
+    partial class childForm_providerInfo
     {
         /// <summary>
         /// Required designer variable.

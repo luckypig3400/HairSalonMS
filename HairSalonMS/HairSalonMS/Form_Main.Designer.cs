@@ -733,7 +733,7 @@
             this.sbtn_serviceManage.TabIndex = 1;
             this.sbtn_serviceManage.Text = "美髮服務項目";
             this.sbtn_serviceManage.UseVisualStyleBackColor = true;
-            this.sbtn_serviceManage.Click += new System.EventHandler(this.sbtn_deptAdd_Click);
+            this.sbtn_serviceManage.Click += new System.EventHandler(this.sbtn_serviceManage_Click);
             // 
             // sbtn_providerInfo
             // 
@@ -749,7 +749,7 @@
             this.sbtn_providerInfo.TabIndex = 0;
             this.sbtn_providerInfo.Text = "廠商基本資料";
             this.sbtn_providerInfo.UseVisualStyleBackColor = true;
-            this.sbtn_providerInfo.Click += new System.EventHandler(this.sbtn_deptInfo_Click);
+            this.sbtn_providerInfo.Click += new System.EventHandler(this.sbtn_providerInfo_Click);
             // 
             // btn_basic
             // 
@@ -758,7 +758,7 @@
             this.btn_basic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_basic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_basic.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_basic.Image = ((System.Drawing.Image)(resources.GetObject("btn_systemManage.Image")));
+            this.btn_basic.Image = ((System.Drawing.Image)(resources.GetObject("btn_basic.Image")));
             this.btn_basic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_basic.Location = new System.Drawing.Point(0, 140);
             this.btn_basic.Name = "btn_basic";

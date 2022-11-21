@@ -118,7 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hair_women-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hair_women-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hair_women-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hair_women-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HSMS_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HSMS_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hairstyle-hair-woman-rear-view-modern-fashion-assortment_99715-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hairstyle-hair-woman-rear-view-modern-fashion-assortment_99715-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

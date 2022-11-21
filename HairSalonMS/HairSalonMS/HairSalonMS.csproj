@@ -256,6 +256,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_user_shield.ico" />
+    <None Include="Resources\hairstyle-hair-woman-rear-view-modern-fashion-assortment_99715-5.jpg" />
+    <None Include="Resources\hair_women-1.jpg" />
+    <None Include="Resources\hair_women-2.jpg" />
     <None Include="Resources\HSMS_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

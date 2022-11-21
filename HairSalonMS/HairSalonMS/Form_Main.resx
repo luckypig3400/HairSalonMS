@@ -173,7 +173,7 @@
         Kv0AAdYQS8ZePVsAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_apply.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_financialReport.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAU9JREFUWEft
         lqFOA0EURfcLEFggQZWkFgem30CCRzV4PgBNBQKH4gsAQUBgalD9iRpI+Ivl3Jk3FZud7XR2DMmc5CZ9
@@ -201,7 +201,7 @@
         TKlJLGtlVwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btn_attendance.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_business.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdFJREFUWEft
         ljtLA1EUhPcHmFLBLoVYpPTRWwkiWAj2liKINtZWVinFIpWlELAVLCSFICLY2YhFCgsb/QUW15lzZ5ck
@@ -243,17 +243,6 @@
         CXbWoXgCq7Irwc68r9qOrIdgwKueXMpKgr0fUDyBQ9lJsHfp6zYq6w6YH3xm+7KSaPcW2Umwtu/bDz/S
         AZjffJb3AMEev279hs6hadlJ2A2R9v8fYcaP3mtZtWD3MfRIb2thNw8APsu6AyYfItSkrK7D7ngcd1qt
         f1BqTVuMVlTnAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btn_product.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAUhJREFUWEft
-        lM9KAlEYxYegRdAiKGghRAQG+RTzZj1AO3eufIKgRZAgFEVGhdBC9z7K9fzyWEHJzFyv0uL+4MCd78/5
-        DggWmVhCCB1pLL3wdnk7+PhUWsJ7OyE45IMwsWDzITjgQ/AhXVi8YXMhMPYB4Ldvu0Wv7RqkD4GhjeFV
-        OnPrC2rSGwMiXQiMbAgj6cStX9DzDKwfAgMbwaPUcmslzEhPLIj4ECzaAO6lY7cqYdY70DwEC16EoXTo
-        Vm20c+RdqB+CQS/AnXTgVmPYlQYYieoQDHgQbqV9t6LBw16wOgQND8CNtOfW2uBlT/g7hIrPn+0QrqVd
-        l5OBp71h7PI3KvakK2nHpeTgLXW549I/RQlPpZnUdykaeVxKwZ/10HzJknhwKRo8FlahdKkahhc7OUAO
-        kAPkAElpFGD5V5yKd+nc9pkfFMUc3b5ZFzNl5/kAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btn_basic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

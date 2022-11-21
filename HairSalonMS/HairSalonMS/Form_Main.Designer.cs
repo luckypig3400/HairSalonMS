@@ -695,7 +695,7 @@
             this.btn_product.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_product.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_product.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_product.Image = ((System.Drawing.Image)(resources.GetObject("btn_basic.Image")));
+            this.btn_product.Image = ((System.Drawing.Image)(resources.GetObject("btn_product.Image")));
             this.btn_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_product.Location = new System.Drawing.Point(0, 295);
             this.btn_product.Name = "btn_product";

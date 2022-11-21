@@ -228,6 +228,19 @@ namespace SHRMS
             openChildForm(frm);
         }
 
+        private void sbtn_product_refund_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_product_refund);
+            childForm_developing frm = new childForm_developing();
+            openChildForm(frm);
+        }
+
+        private void sbtn_product_report_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_product_report);
+            childForm_developing2 frm = new childForm_developing2();
+            openChildForm(frm);
+        }
         private void sbtn_teaInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_empInfo);
@@ -339,5 +352,6 @@ namespace SHRMS
         {
             btn_close.BackColor = Color.FromArgb(34, 40, 49);
         }
+
     }
 }

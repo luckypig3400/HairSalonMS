@@ -487,6 +487,7 @@
             this.sbtn_product_in.TabIndex = 0;
             this.sbtn_product_in.Text = "產品進貨作業";
             this.sbtn_product_in.UseVisualStyleBackColor = true;
+            this.sbtn_product_in.Click += new System.EventHandler(this.sbtn_product_in_Click);
             // 
             // sbtn_product_manage
             // 

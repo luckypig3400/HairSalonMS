@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="childForm\childForm_developing2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_developing2.Designer.cs">
+      <DependentUpon>childForm_developing2.cs</DependentUpon>
+    </Compile>
     <Compile Include="childForm\childForm_developing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +181,9 @@
     <Compile Include="GlobalData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="childForm\childForm_developing2.resx">
+      <DependentUpon>childForm_developing2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_developing.resx">
       <DependentUpon>childForm_developing.cs</DependentUpon>
     </EmbeddedResource>

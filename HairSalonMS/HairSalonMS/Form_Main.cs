@@ -221,6 +221,13 @@ namespace SHRMS
             openChildForm(frm);
         }
 
+        private void sbtn_product_in_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_product_in);
+            childForm_developing2 frm = new childForm_developing2();
+            openChildForm(frm);
+        }
+
         private void sbtn_teaInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_empInfo);

@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_developing
+    partial class childForm_developing2
     {
         /// <summary>
         /// Required designer variable.
@@ -64,7 +64,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(363, 256);
+            this.label2.Location = new System.Drawing.Point(363, 450);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(334, 33);
             this.label2.TabIndex = 7;
@@ -76,15 +76,15 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.hair_women_1;
-            this.pictureBox1.Location = new System.Drawing.Point(-10, 36);
+            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.hair_women_2;
+            this.pictureBox1.Location = new System.Drawing.Point(-14, 36);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1080, 677);
+            this.pictureBox1.Size = new System.Drawing.Size(1087, 680);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
-            // childForm_developing
+            // childForm_developing2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
@@ -93,7 +93,7 @@
             this.Controls.Add(this.panel_top);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "childForm_developing";
+            this.Name = "childForm_developing2";
             this.Text = "childForm_apply";
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();

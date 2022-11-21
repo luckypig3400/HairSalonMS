@@ -116,9 +116,9 @@ namespace SHRMS
                 frm_main.btn_basic.Visible = (bool)(dr["manage_dept"]);
                 frm_main.btn_employee.Visible = (bool)(dr["manage_teacher"]);
                 frm_main.btn_customer.Visible = (bool)(dr["manage_emp"]);
-                frm_main.btn_attendance.Visible = (bool)(dr["manege_attendance"]);
+                frm_main.btn_business.Visible = (bool)(dr["manege_attendance"]);
                 frm_main.btn_salary.Visible = (bool)(dr["manage_salary"]);
-                frm_main.btn_apply.Visible = (bool)(dr["apply"]);
+                frm_main.btn_financialReport.Visible = (bool)(dr["apply"]);
                 frm_main.btn_personalInfo.Visible = (bool)(dr["personalInfo"]);
                 frm_main.btn_systemManage.Visible = (bool)(dr["managesystem"]);
                 frm_main.label_userRole.Text = uname_temp + " (" + rolename + ")";

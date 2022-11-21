@@ -26,7 +26,7 @@ namespace SHRMS
 
         private void panel_initialize()
         {
-            panel_attendanceSubMenu.Visible = false;
+            panel_businessSubMenu.Visible = false;
             panel_basicSubMenu.Visible = false;
             panel_productSubMenu.Visible = false;
             panel_cusSubMenu.Visible = false;
@@ -36,8 +36,8 @@ namespace SHRMS
 
         private void hideSubMenu()
         {
-            if (panel_attendanceSubMenu.Visible == true)
-                panel_attendanceSubMenu.Visible = false;
+            if (panel_businessSubMenu.Visible == true)
+                panel_businessSubMenu.Visible = false;
             if (panel_basicSubMenu.Visible == true)
                 panel_basicSubMenu.Visible = false;
             if (panel_productSubMenu.Visible == true)
@@ -166,8 +166,8 @@ namespace SHRMS
 
         private void btn_attendance_Click(object sender, EventArgs e)
         {
-            selectedBackground(btn_attendance);
-            showSubMenu(panel_attendanceSubMenu);
+            selectedBackground(btn_business);
+            showSubMenu(panel_businessSubMenu);
         }
 
         private void btn_salary_Click(object sender, EventArgs e)
@@ -178,11 +178,10 @@ namespace SHRMS
 
         private void btn_apply_Click(object sender, EventArgs e)
         {
-            selectedBackground(btn_apply);
+            selectedBackground(btn_financialReport);
             hideSubMenu();
             childForm_developing frm = new childForm_developing();
-            openChildForm(frm);
-
+            openChildForm(frm); 
         }
 
         private void btn_personalInfo_Click(object sender, EventArgs e)
@@ -259,28 +258,28 @@ namespace SHRMS
 
         private void sbtn_attendanceInfo_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_attendanceInfo);
+            selectedBackground_sub(sbtn_business_income);
             childForm_attendanceInfo frm = new childForm_attendanceInfo();
             openChildForm(frm);
         }
 
         private void sbtn_attendanceAdd_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_attendanceAdd);
+            selectedBackground_sub(sbtn_business_other);
             childForm_attendanceAdd frm = new childForm_attendanceAdd();
             openChildForm(frm);
         }
 
         private void sbtn_salaryInfo_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_salaryInfo);
+            selectedBackground_sub(sbtn_salaryHairdresserCal);
             childForm_salaryInfo frm = new childForm_salaryInfo();
             openChildForm(frm);
         }
 
         private void sbtn_salaryAdd_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_salaryAdd);
+            selectedBackground_sub(sbtn_salaryAssistantCal);
             childForm_salaryAdd frm = new childForm_salaryAdd();
             openChildForm(frm);
         }

@@ -28,6 +28,7 @@ namespace SHRMS
         {
             panel_attendanceSubMenu.Visible = false;
             panel_basicSubMenu.Visible = false;
+            panel_productSubMenu.Visible = false;
             panel_cusSubMenu.Visible = false;
             panel_salarySubMenu.Visible = false;
             panel_empSubMenu.Visible = false;

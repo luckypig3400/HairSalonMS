@@ -27,24 +27,26 @@ namespace SHRMS
         private void panel_initialize()
         {
             panel_attendanceSubMenu.Visible = false;
-            panel_deptSubMenu.Visible = false;
-            panel_empSubMenu.Visible = false;
+            panel_basicSubMenu.Visible = false;
+            panel_cusSubMenu.Visible = false;
             panel_salarySubMenu.Visible = false;
-            panel_teacherSubMenu.Visible = false;
+            panel_empSubMenu.Visible = false;
         }
 
         private void hideSubMenu()
         {
             if (panel_attendanceSubMenu.Visible == true)
                 panel_attendanceSubMenu.Visible = false;
-            if (panel_deptSubMenu.Visible == true)
-                panel_deptSubMenu.Visible = false;
-            if (panel_empSubMenu.Visible == true)
-                panel_empSubMenu.Visible = false;
+            if (panel_basicSubMenu.Visible == true)
+                panel_basicSubMenu.Visible = false;
+            if (panel_productSubMenu.Visible == true)
+                panel_productSubMenu.Visible = false;
+            if (panel_cusSubMenu.Visible == true)
+                panel_cusSubMenu.Visible = false;
             if (panel_salarySubMenu.Visible == true)
                 panel_salarySubMenu.Visible = false;
-            if (panel_teacherSubMenu.Visible == true)
-                panel_teacherSubMenu.Visible = false;
+            if (panel_empSubMenu.Visible == true)
+                panel_empSubMenu.Visible = false;
         }
 
         private void showSubMenu(Panel SubMenu)
@@ -139,20 +141,26 @@ namespace SHRMS
 
         private void btn_dept_Click(object sender, EventArgs e)
         {
-            selectedBackground(btn_dept);
-            showSubMenu(panel_deptSubMenu);
+            selectedBackground(btn_basic);
+            showSubMenu(panel_basicSubMenu);
+        }
+
+        private void btn_product_Click(object sender, EventArgs e)
+        {
+            selectedBackground(btn_product);
+            showSubMenu(panel_productSubMenu);
         }
 
         private void btn_teacher_Click(object sender, EventArgs e)
         {
-            selectedBackground(btn_teacher);
-            showSubMenu(panel_teacherSubMenu);
+            selectedBackground(btn_employee);
+            showSubMenu(panel_empSubMenu);
         }
 
         private void btn_emp_Click(object sender, EventArgs e)
         {
-            selectedBackground(btn_emp);
-            showSubMenu(panel_empSubMenu);
+            selectedBackground(btn_customer);
+            showSubMenu(panel_cusSubMenu);
         }
 
         private void btn_attendance_Click(object sender, EventArgs e)
@@ -194,56 +202,56 @@ namespace SHRMS
 
         private void sbtn_deptInfo_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_deptInfo);
+            selectedBackground_sub(sbtn_providerInfo);
             childForm_deptInfo frm = new childForm_deptInfo();
             openChildForm(frm);
         }
 
         private void sbtn_deptAdd_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_deptAdd);
+            selectedBackground_sub(sbtn_serviceManage);
             childForm_deptAdd frm = new childForm_deptAdd();
             openChildForm(frm);
         }
 
         private void sbtn_teaInfo_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_teaInfo);
+            selectedBackground_sub(sbtn_empInfo);
             childForm_teaInfo frm = new childForm_teaInfo();
             openChildForm(frm);
         }
 
         private void sbtn_teaFamily_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_teaFamily);
+            selectedBackground_sub(sbtn_empAchievement);
             childForm_teaFamily frm = new childForm_teaFamily();
             openChildForm(frm);
         }
 
         private void sbtn_teaAdd_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_teaAdd);
+            selectedBackground_sub(sbtn_empAdd);
             childForm_teaAdd frm = new childForm_teaAdd();
             openChildForm(frm);
         }
 
         private void sbtn_empInfo_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_empInfo);
+            selectedBackground_sub(sbtn_cusInfo);
             childForm_empInfo frm = new childForm_empInfo();
             openChildForm(frm);
         }
 
         private void sbtn_empFamily_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_empFamily);
+            selectedBackground_sub(sbtn_cusAnalyze);
             childForm_empFamily frm = new childForm_empFamily();
             openChildForm(frm);
         }
 
         private void sbtn_empAdd_Click(object sender, EventArgs e)
         {
-            selectedBackground_sub(sbtn_empAdd);
+            selectedBackground_sub(sbtn_cusAdd);
             childForm_empAdd frm = new childForm_empAdd();
             openChildForm(frm);
         }
@@ -317,6 +325,5 @@ namespace SHRMS
         {
             btn_close.BackColor = Color.FromArgb(34, 40, 49);
         }
-
     }
 }

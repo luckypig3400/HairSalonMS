@@ -113,9 +113,9 @@ namespace SHRMS
                 dr = mySqlCommand.ExecuteReader();
                 dr.Read();
 
-                frm_main.btn_dept.Visible = (bool)(dr["manage_dept"]);
-                frm_main.btn_teacher.Visible = (bool)(dr["manage_teacher"]);
-                frm_main.btn_emp.Visible = (bool)(dr["manage_emp"]);
+                frm_main.btn_basic.Visible = (bool)(dr["manage_dept"]);
+                frm_main.btn_employee.Visible = (bool)(dr["manage_teacher"]);
+                frm_main.btn_customer.Visible = (bool)(dr["manage_emp"]);
                 frm_main.btn_attendance.Visible = (bool)(dr["manege_attendance"]);
                 frm_main.btn_salary.Visible = (bool)(dr["manage_salary"]);
                 frm_main.btn_apply.Visible = (bool)(dr["apply"]);

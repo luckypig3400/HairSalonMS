@@ -304,17 +304,24 @@ namespace SHRMS
             openChildForm(frm);
         }
 
-        private void sbtn_attendanceInfo_Click(object sender, EventArgs e)
+        private void sbtn_business_income_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_business_income);
-            childForm_attendanceInfo frm = new childForm_attendanceInfo();
+            childForm_businessIncome frm = new childForm_businessIncome();
             openChildForm(frm);
         }
 
-        private void sbtn_attendanceAdd_Click(object sender, EventArgs e)
+        private void sbtn_business_other_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_business_other);
-            childForm_attendanceAdd frm = new childForm_attendanceAdd();
+            childForm_businessOther frm = new childForm_businessOther();
+            openChildForm(frm);
+        }
+
+        private void sbtn_business_report_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_business_report);
+            childForm_businessReport frm = new childForm_businessReport();
             openChildForm(frm);
         }
 
@@ -373,6 +380,5 @@ namespace SHRMS
         {
             btn_close.BackColor = Color.FromArgb(34, 40, 49);
         }
-
     }
 }

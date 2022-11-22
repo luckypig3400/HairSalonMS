@@ -371,6 +371,7 @@
             this.sbtn_business_report.TabIndex = 2;
             this.sbtn_business_report.Text = "營業報表(日/月/年)";
             this.sbtn_business_report.UseVisualStyleBackColor = true;
+            this.sbtn_business_report.Click += new System.EventHandler(this.sbtn_business_report_Click);
             // 
             // sbtn_business_other
             // 
@@ -386,7 +387,7 @@
             this.sbtn_business_other.TabIndex = 1;
             this.sbtn_business_other.Text = "其他收入/支出作業";
             this.sbtn_business_other.UseVisualStyleBackColor = true;
-            this.sbtn_business_other.Click += new System.EventHandler(this.sbtn_attendanceAdd_Click);
+            this.sbtn_business_other.Click += new System.EventHandler(this.sbtn_business_other_Click);
             // 
             // sbtn_business_income
             // 
@@ -402,7 +403,7 @@
             this.sbtn_business_income.TabIndex = 0;
             this.sbtn_business_income.Text = "營業收入作業";
             this.sbtn_business_income.UseVisualStyleBackColor = true;
-            this.sbtn_business_income.Click += new System.EventHandler(this.sbtn_attendanceInfo_Click);
+            this.sbtn_business_income.Click += new System.EventHandler(this.sbtn_business_income_Click);
             // 
             // btn_business
             // 

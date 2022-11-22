@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_cusAnalyze
+    partial class childForm_businessReport
     {
         /// <summary>
         /// Required designer variable.
@@ -53,16 +53,16 @@
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(351, 29);
+            this.label1.Size = new System.Drawing.Size(405, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：顧客管理 > 顧客消費分析";
+            this.label1.Text = "位置：營業管理 > 營業報表(日/月/年)";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.financial_profit;
+            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.financial_report;
             this.pictureBox1.Location = new System.Drawing.Point(274, 99);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(512, 512);
@@ -70,15 +70,15 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // childForm_cusAnalyze
+            // childForm_businessReport
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1060, 710);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "childForm_cusAnalyze";
+            this.Name = "childForm_businessReport";
             this.Text = "childForm_empFamily";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

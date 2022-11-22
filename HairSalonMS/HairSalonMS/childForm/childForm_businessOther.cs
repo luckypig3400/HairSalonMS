@@ -10,9 +10,9 @@ using MySql.Data.MySqlClient;
 
 namespace SHRMS.childForm
 {
-    public partial class childForm_attendanceAdd : Form
+    public partial class childForm_businessOther : Form
     {
-        public childForm_attendanceAdd()
+        public childForm_businessOther()
         {
             InitializeComponent();
         }

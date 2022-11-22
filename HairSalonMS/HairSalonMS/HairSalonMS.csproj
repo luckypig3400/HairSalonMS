@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="childForm\childForm_businessReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_businessReport.Designer.cs">
+      <DependentUpon>childForm_businessReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="childForm\childForm_developing2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,17 +76,17 @@
     <Compile Include="childForm\childForm_developing.Designer.cs">
       <DependentUpon>childForm_developing.cs</DependentUpon>
     </Compile>
-    <Compile Include="childForm\childForm_attendanceAdd.cs">
+    <Compile Include="childForm\childForm_businessOther.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="childForm\childForm_attendanceAdd.Designer.cs">
-      <DependentUpon>childForm_attendanceAdd.cs</DependentUpon>
+    <Compile Include="childForm\childForm_businessOther.Designer.cs">
+      <DependentUpon>childForm_businessOther.cs</DependentUpon>
     </Compile>
-    <Compile Include="childForm\childForm_attendanceInfo.cs">
+    <Compile Include="childForm\childForm_businessIncome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="childForm\childForm_attendanceInfo.Designer.cs">
-      <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
+    <Compile Include="childForm\childForm_businessIncome.Designer.cs">
+      <DependentUpon>childForm_businessIncome.cs</DependentUpon>
     </Compile>
     <Compile Include="childForm\childForm_cusInfo.cs">
       <SubType>Form</SubType>
@@ -187,17 +193,20 @@
     <Compile Include="GlobalData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="childForm\childForm_businessReport.resx">
+      <DependentUpon>childForm_businessReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_developing2.resx">
       <DependentUpon>childForm_developing2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_developing.resx">
       <DependentUpon>childForm_developing.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_attendanceAdd.resx">
-      <DependentUpon>childForm_attendanceAdd.cs</DependentUpon>
+    <EmbeddedResource Include="childForm\childForm_businessOther.resx">
+      <DependentUpon>childForm_businessOther.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_attendanceInfo.resx">
-      <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
+    <EmbeddedResource Include="childForm\childForm_businessIncome.resx">
+      <DependentUpon>childForm_businessIncome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_cusInfo.resx">
       <DependentUpon>childForm_cusInfo.cs</DependentUpon>
@@ -274,6 +283,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_user_shield.ico" />
+    <None Include="Resources\financial-report.png" />
+    <None Include="Resources\salary.png" />
+    <None Include="Resources\financial-profit.png" />
+    <None Include="Resources\analyzing.png" />
     <None Include="Resources\hairstyle-hair-woman-rear-view-modern-fashion-assortment_99715-5.jpg" />
     <None Include="Resources\hair_women-1.jpg" />
     <None Include="Resources\hair_women-2.jpg" />

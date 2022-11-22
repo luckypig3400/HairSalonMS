@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_attendanceInfo
+    partial class childForm_businessIncome
     {
         /// <summary>
         /// Required designer variable.
@@ -80,13 +80,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 25);
+            this.label1.Size = new System.Drawing.Size(351, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：考勤管理 > 考勤資訊";
+            this.label1.Text = "位置：營業管理 > 營業收入作業";
             // 
             // panel_left
             // 
@@ -122,112 +122,112 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 206);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(480, 448);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "員工考勤資訊";
+            this.groupBox2.Text = "營業收入資訊";
             // 
             // label_realDay
             // 
             this.label_realDay.AutoSize = true;
-            this.label_realDay.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_realDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_realDay.Location = new System.Drawing.Point(389, 279);
             this.label_realDay.Name = "label_realDay";
-            this.label_realDay.Size = new System.Drawing.Size(50, 27);
+            this.label_realDay.Size = new System.Drawing.Size(59, 29);
             this.label_realDay.TabIndex = 6;
             this.label_realDay.Text = "0 天";
             // 
             // label_shoudDay
             // 
             this.label_shoudDay.AutoSize = true;
-            this.label_shoudDay.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_shoudDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_shoudDay.Location = new System.Drawing.Point(389, 229);
             this.label_shoudDay.Name = "label_shoudDay";
-            this.label_shoudDay.Size = new System.Drawing.Size(50, 27);
+            this.label_shoudDay.Size = new System.Drawing.Size(59, 29);
             this.label_shoudDay.TabIndex = 6;
             this.label_shoudDay.Text = "0 天";
             // 
             // label_absenteeism
             // 
             this.label_absenteeism.AutoSize = true;
-            this.label_absenteeism.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_absenteeism.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_absenteeism.Location = new System.Drawing.Point(389, 181);
             this.label_absenteeism.Name = "label_absenteeism";
-            this.label_absenteeism.Size = new System.Drawing.Size(50, 27);
+            this.label_absenteeism.Size = new System.Drawing.Size(59, 29);
             this.label_absenteeism.TabIndex = 6;
             this.label_absenteeism.Text = "0 次";
             // 
             // label_earlyLeave
             // 
             this.label_earlyLeave.AutoSize = true;
-            this.label_earlyLeave.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_earlyLeave.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_earlyLeave.Location = new System.Drawing.Point(389, 132);
             this.label_earlyLeave.Name = "label_earlyLeave";
-            this.label_earlyLeave.Size = new System.Drawing.Size(50, 27);
+            this.label_earlyLeave.Size = new System.Drawing.Size(59, 29);
             this.label_earlyLeave.TabIndex = 6;
             this.label_earlyLeave.Text = "0 次";
             // 
             // label_late
             // 
             this.label_late.AutoSize = true;
-            this.label_late.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_late.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_late.Location = new System.Drawing.Point(389, 85);
             this.label_late.Name = "label_late";
-            this.label_late.Size = new System.Drawing.Size(50, 27);
+            this.label_late.Size = new System.Drawing.Size(59, 29);
             this.label_late.TabIndex = 6;
             this.label_late.Text = "0 次";
             // 
             // label_overTime
             // 
             this.label_overTime.AutoSize = true;
-            this.label_overTime.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_overTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_overTime.Location = new System.Drawing.Point(139, 280);
             this.label_overTime.Name = "label_overTime";
-            this.label_overTime.Size = new System.Drawing.Size(70, 27);
+            this.label_overTime.Size = new System.Drawing.Size(84, 29);
             this.label_overTime.TabIndex = 6;
             this.label_overTime.Text = "0 小時";
             // 
             // label_dept
             // 
             this.label_dept.AutoSize = true;
-            this.label_dept.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_dept.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_dept.Location = new System.Drawing.Point(139, 228);
             this.label_dept.Name = "label_dept";
-            this.label_dept.Size = new System.Drawing.Size(57, 27);
+            this.label_dept.Size = new System.Drawing.Size(58, 29);
             this.label_dept.TabIndex = 6;
             this.label_dept.Text = "×××";
             // 
             // label_role
             // 
             this.label_role.AutoSize = true;
-            this.label_role.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_role.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_role.Location = new System.Drawing.Point(139, 182);
             this.label_role.Name = "label_role";
-            this.label_role.Size = new System.Drawing.Size(57, 27);
+            this.label_role.Size = new System.Drawing.Size(58, 29);
             this.label_role.TabIndex = 6;
             this.label_role.Text = "×××";
             // 
             // label_name
             // 
             this.label_name.AutoSize = true;
-            this.label_name.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_name.Location = new System.Drawing.Point(139, 133);
             this.label_name.Name = "label_name";
-            this.label_name.Size = new System.Drawing.Size(57, 27);
+            this.label_name.Size = new System.Drawing.Size(58, 29);
             this.label_name.TabIndex = 6;
             this.label_name.Text = "×××";
             // 
             // label_empNo
             // 
             this.label_empNo.AutoSize = true;
-            this.label_empNo.Font = new System.Drawing.Font("微軟雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_empNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_empNo.Location = new System.Drawing.Point(139, 84);
             this.label_empNo.Name = "label_empNo";
-            this.label_empNo.Size = new System.Drawing.Size(60, 27);
+            this.label_empNo.Size = new System.Drawing.Size(69, 29);
             this.label_empNo.TabIndex = 6;
             this.label_empNo.Text = "0000";
             // 
@@ -236,7 +236,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(50, 232);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 21);
+            this.label14.Size = new System.Drawing.Size(112, 25);
             this.label14.TabIndex = 6;
             this.label14.Text = "所在部門：";
             // 
@@ -245,7 +245,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(34, 283);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 21);
+            this.label8.Size = new System.Drawing.Size(132, 25);
             this.label8.TabIndex = 6;
             this.label8.Text = "加班小時數：";
             // 
@@ -254,7 +254,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(274, 283);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 21);
+            this.label7.Size = new System.Drawing.Size(152, 25);
             this.label7.TabIndex = 6;
             this.label7.Text = "實際出勤天數：";
             // 
@@ -263,7 +263,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(306, 184);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 21);
+            this.label13.Size = new System.Drawing.Size(112, 25);
             this.label13.TabIndex = 6;
             this.label13.Text = "曠到次數：";
             // 
@@ -272,7 +272,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(306, 135);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 21);
+            this.label12.Size = new System.Drawing.Size(112, 25);
             this.label12.TabIndex = 6;
             this.label12.Text = "早退次數：";
             // 
@@ -281,7 +281,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(306, 86);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 21);
+            this.label11.Size = new System.Drawing.Size(112, 25);
             this.label11.TabIndex = 6;
             this.label11.Text = "遲到次數：";
             // 
@@ -290,7 +290,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(290, 232);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 21);
+            this.label6.Size = new System.Drawing.Size(132, 25);
             this.label6.TabIndex = 6;
             this.label6.Text = "應出勤天數：";
             // 
@@ -299,7 +299,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(50, 86);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 21);
+            this.label5.Size = new System.Drawing.Size(112, 25);
             this.label5.TabIndex = 6;
             this.label5.Text = "員工編號：";
             // 
@@ -308,7 +308,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(50, 184);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 21);
+            this.label9.Size = new System.Drawing.Size(112, 25);
             this.label9.TabIndex = 6;
             this.label9.Text = "員工職務：";
             // 
@@ -317,7 +317,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(50, 135);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 21);
+            this.label4.Size = new System.Drawing.Size(112, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "員工姓名：";
             // 
@@ -328,7 +328,7 @@
             this.groupBox1.Controls.Add(this.btn_allInfo);
             this.groupBox1.Controls.Add(this.btn_selectA);
             this.groupBox1.Controls.Add(this.label_QType);
-            this.groupBox1.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Name = "groupBox1";
@@ -340,10 +340,10 @@
             // textBox_str
             // 
             this.textBox_str.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_str.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox_str.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox_str.Location = new System.Drawing.Point(166, 51);
             this.textBox_str.Name = "textBox_str";
-            this.textBox_str.Size = new System.Drawing.Size(125, 26);
+            this.textBox_str.Size = new System.Drawing.Size(125, 27);
             this.textBox_str.TabIndex = 5;
             // 
             // btn_allInfo
@@ -351,13 +351,13 @@
             this.btn_allInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(149)))), ((int)(((byte)(255)))));
             this.btn_allInfo.FlatAppearance.BorderSize = 0;
             this.btn_allInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_allInfo.Font = new System.Drawing.Font("微軟雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_allInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btn_allInfo.ForeColor = System.Drawing.Color.White;
             this.btn_allInfo.Location = new System.Drawing.Point(283, 114);
             this.btn_allInfo.Name = "btn_allInfo";
             this.btn_allInfo.Size = new System.Drawing.Size(185, 40);
             this.btn_allInfo.TabIndex = 3;
-            this.btn_allInfo.Text = "查看所有考勤資訊";
+            this.btn_allInfo.Text = "查看所有營業日資訊";
             this.btn_allInfo.UseVisualStyleBackColor = false;
             this.btn_allInfo.Click += new System.EventHandler(this.btn_allInfo_Click);
             // 
@@ -378,12 +378,12 @@
             // label_QType
             // 
             this.label_QType.AutoSize = true;
-            this.label_QType.Font = new System.Drawing.Font("微軟雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_QType.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label_QType.Location = new System.Drawing.Point(14, 51);
             this.label_QType.Name = "label_QType";
-            this.label_QType.Size = new System.Drawing.Size(150, 25);
+            this.label_QType.Size = new System.Drawing.Size(139, 29);
             this.label_QType.TabIndex = 6;
-            this.label_QType.Text = "按員工編號查詢:";
+            this.label_QType.Text = "按日期查詢:";
             // 
             // panel_right
             // 
@@ -403,12 +403,13 @@
             this.dataGridView_att.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_att.Name = "dataGridView_att";
             this.dataGridView_att.ReadOnly = true;
+            this.dataGridView_att.RowHeadersWidth = 51;
             this.dataGridView_att.RowTemplate.Height = 23;
             this.dataGridView_att.Size = new System.Drawing.Size(555, 666);
             this.dataGridView_att.TabIndex = 0;
             this.dataGridView_att.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_att_CellClick);
             // 
-            // childForm_attendanceInfo
+            // childForm_businessIncome
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1060, 710);
@@ -416,7 +417,7 @@
             this.Controls.Add(this.panel_left);
             this.Controls.Add(this.panel_top);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "childForm_attendanceInfo";
+            this.Name = "childForm_businessIncome";
             this.Text = "childForm_attendanceInfo";
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();

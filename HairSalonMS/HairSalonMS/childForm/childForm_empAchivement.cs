@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace SHRMS.childForm
 {
-    public partial class childForm_empFamily : Form
+    public partial class childForm_empAchivement : Form
     {
-        public childForm_empFamily()
+        public childForm_empAchivement()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

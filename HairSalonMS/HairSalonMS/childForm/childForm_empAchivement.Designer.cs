@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_teaFamily
+    partial class childForm_empAchivement
     {
         /// <summary>
         /// Required designer variable.

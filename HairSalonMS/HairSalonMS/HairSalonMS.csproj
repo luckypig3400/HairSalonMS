@@ -100,11 +100,11 @@
     <Compile Include="childForm\childForm_empAdd.Designer.cs">
       <DependentUpon>childForm_empAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="childForm\childForm_empFamily.cs">
+    <Compile Include="childForm\childForm_cusAnalyze.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="childForm\childForm_empFamily.Designer.cs">
-      <DependentUpon>childForm_empFamily.cs</DependentUpon>
+    <Compile Include="childForm\childForm_cusAnalyze.Designer.cs">
+      <DependentUpon>childForm_cusAnalyze.cs</DependentUpon>
     </Compile>
     <Compile Include="childForm\childForm_empInfo.cs">
       <SubType>Form</SubType>
@@ -148,23 +148,11 @@
     <Compile Include="childForm\childForm_systemManage.Designer.cs">
       <DependentUpon>childForm_systemManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="childForm\childForm_teaAdd.cs">
+    <Compile Include="childForm\childForm_empAchivement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="childForm\childForm_teaAdd.Designer.cs">
-      <DependentUpon>childForm_teaAdd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="childForm\childForm_teaFamily.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="childForm\childForm_teaFamily.Designer.cs">
-      <DependentUpon>childForm_teaFamily.cs</DependentUpon>
-    </Compile>
-    <Compile Include="childForm\childForm_teaInfo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="childForm\childForm_teaInfo.Designer.cs">
-      <DependentUpon>childForm_teaInfo.cs</DependentUpon>
+    <Compile Include="childForm\childForm_empAchivement.Designer.cs">
+      <DependentUpon>childForm_empAchivement.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Main.cs">
       <SubType>Form</SubType>
@@ -202,8 +190,8 @@
     <EmbeddedResource Include="childForm\childForm_empAdd.resx">
       <DependentUpon>childForm_empAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_empFamily.resx">
-      <DependentUpon>childForm_empFamily.cs</DependentUpon>
+    <EmbeddedResource Include="childForm\childForm_cusAnalyze.resx">
+      <DependentUpon>childForm_cusAnalyze.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_empInfo.resx">
       <DependentUpon>childForm_empInfo.cs</DependentUpon>
@@ -226,14 +214,8 @@
     <EmbeddedResource Include="childForm\childForm_systemManage.resx">
       <DependentUpon>childForm_systemManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_teaAdd.resx">
-      <DependentUpon>childForm_teaAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_teaFamily.resx">
-      <DependentUpon>childForm_teaFamily.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="childForm\childForm_teaInfo.resx">
-      <DependentUpon>childForm_teaInfo.cs</DependentUpon>
+    <EmbeddedResource Include="childForm\childForm_empAchivement.resx">
+      <DependentUpon>childForm_empAchivement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>

@@ -241,42 +241,42 @@ namespace SHRMS
             childForm_developing2 frm = new childForm_developing2();
             openChildForm(frm);
         }
-        private void sbtn_teaInfo_Click(object sender, EventArgs e)
+        private void sbtn_empInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_empInfo);
-            childForm_teaInfo frm = new childForm_teaInfo();
+            childForm_empInfo frm = new childForm_empInfo();
             openChildForm(frm);
         }
 
-        private void sbtn_teaFamily_Click(object sender, EventArgs e)
+        private void sbtn_empAchievement_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_empAchievement);
-            childForm_teaFamily frm = new childForm_teaFamily();
+            childForm_empAchivement frm = new childForm_empAchivement();
             openChildForm(frm);
         }
 
-        private void sbtn_teaAdd_Click(object sender, EventArgs e)
+        private void sbtn_empAdd_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_empAdd);
-            childForm_teaAdd frm = new childForm_teaAdd();
+            childForm_empAdd frm = new childForm_empAdd();
             openChildForm(frm);
         }
 
-        private void sbtn_empInfo_Click(object sender, EventArgs e)
+        private void sbtn_cusInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_cusInfo);
             childForm_empInfo frm = new childForm_empInfo();
             openChildForm(frm);
         }
 
-        private void sbtn_empFamily_Click(object sender, EventArgs e)
+        private void sbtn_cusAnalyze_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_cusAnalyze);
-            childForm_empFamily frm = new childForm_empFamily();
+            childForm_cusAnalyze frm = new childForm_cusAnalyze();
             openChildForm(frm);
         }
 
-        private void sbtn_empAdd_Click(object sender, EventArgs e)
+        private void sbtn_cusAdd_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_cusAdd);
             childForm_empAdd frm = new childForm_empAdd();

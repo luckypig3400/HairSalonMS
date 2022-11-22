@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_empFamily
+    partial class childForm_cusAnalyze
     {
         /// <summary>
         /// Required designer variable.

@@ -497,7 +497,7 @@
             this.sbtn_cusAnalyze.TabIndex = 1;
             this.sbtn_cusAnalyze.Text = "顧客消費分析";
             this.sbtn_cusAnalyze.UseVisualStyleBackColor = true;
-            this.sbtn_cusAnalyze.Click += new System.EventHandler(this.sbtn_empFamily_Click);
+            this.sbtn_cusAnalyze.Click += new System.EventHandler(this.sbtn_cusAnalyze_Click);
             // 
             // sbtn_cusInfo
             // 
@@ -513,7 +513,7 @@
             this.sbtn_cusInfo.TabIndex = 0;
             this.sbtn_cusInfo.Text = "查詢/編輯顧客";
             this.sbtn_cusInfo.UseVisualStyleBackColor = true;
-            this.sbtn_cusInfo.Click += new System.EventHandler(this.sbtn_empInfo_Click);
+            this.sbtn_cusInfo.Click += new System.EventHandler(this.sbtn_cusInfo_Click);
             // 
             // btn_customer
             // 
@@ -561,7 +561,7 @@
             this.sbtn_empAdd.TabIndex = 2;
             this.sbtn_empAdd.Text = "新增員工";
             this.sbtn_empAdd.UseVisualStyleBackColor = true;
-            this.sbtn_empAdd.Click += new System.EventHandler(this.sbtn_teaAdd_Click);
+            this.sbtn_empAdd.Click += new System.EventHandler(this.sbtn_empAdd_Click);
             // 
             // sbtn_empAchievement
             // 
@@ -577,7 +577,7 @@
             this.sbtn_empAchievement.TabIndex = 1;
             this.sbtn_empAchievement.Text = "員工業績分析";
             this.sbtn_empAchievement.UseVisualStyleBackColor = true;
-            this.sbtn_empAchievement.Click += new System.EventHandler(this.sbtn_teaFamily_Click);
+            this.sbtn_empAchievement.Click += new System.EventHandler(this.sbtn_empAchievement_Click);
             // 
             // sbtn_empInfo
             // 
@@ -593,7 +593,7 @@
             this.sbtn_empInfo.TabIndex = 0;
             this.sbtn_empInfo.Text = "查詢/編輯員工";
             this.sbtn_empInfo.UseVisualStyleBackColor = true;
-            this.sbtn_empInfo.Click += new System.EventHandler(this.sbtn_teaInfo_Click);
+            this.sbtn_empInfo.Click += new System.EventHandler(this.sbtn_empInfo_Click);
             // 
             // btn_employee
             // 

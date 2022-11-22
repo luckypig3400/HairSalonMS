@@ -325,14 +325,14 @@ namespace SHRMS
             openChildForm(frm);
         }
 
-        private void sbtn_salaryInfo_Click(object sender, EventArgs e)
+        private void sbtn_salaryHairdresserCal_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_salaryHairdresserCal);
             childForm_salaryInfo frm = new childForm_salaryInfo();
             openChildForm(frm);
         }
 
-        private void sbtn_salaryAdd_Click(object sender, EventArgs e)
+        private void sbtn_salaryAssistantCal_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_salaryAssistantCal);
             childForm_salaryAdd frm = new childForm_salaryAdd();

@@ -32,51 +32,36 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
             this.panel_top = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btn_min = new System.Windows.Forms.Button();
-            this.btn_max = new System.Windows.Forms.Button();
-            this.btn_close = new System.Windows.Forms.Button();
             this.panel_bigMenu = new System.Windows.Forms.Panel();
-            this.btn_systemManage = new System.Windows.Forms.Button();
-            this.btn_personalInfo = new System.Windows.Forms.Button();
-            this.btn_financialReport = new System.Windows.Forms.Button();
             this.panel_salarySubMenu = new System.Windows.Forms.Panel();
             this.sbtn_salaryReport = new System.Windows.Forms.Button();
             this.sbtn_salaryAssistantCal = new System.Windows.Forms.Button();
             this.sbtn_salaryHairdresserCal = new System.Windows.Forms.Button();
-            this.btn_salary = new System.Windows.Forms.Button();
             this.panel_businessSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_business_report = new System.Windows.Forms.Button();
             this.sbtn_business_other = new System.Windows.Forms.Button();
             this.sbtn_business_income = new System.Windows.Forms.Button();
-            this.btn_business = new System.Windows.Forms.Button();
             this.panel_cusSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_cusCardUse = new System.Windows.Forms.Button();
             this.sbtn_cusCardSell = new System.Windows.Forms.Button();
             this.sbtn_cusAdd = new System.Windows.Forms.Button();
             this.sbtn_cusAnalyze = new System.Windows.Forms.Button();
             this.sbtn_cusInfo = new System.Windows.Forms.Button();
-            this.btn_customer = new System.Windows.Forms.Button();
             this.panel_empSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_empAdd = new System.Windows.Forms.Button();
             this.sbtn_empAchievement = new System.Windows.Forms.Button();
             this.sbtn_empInfo = new System.Windows.Forms.Button();
-            this.btn_employee = new System.Windows.Forms.Button();
             this.panel_productSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_product_report = new System.Windows.Forms.Button();
             this.sbtn_product_refund = new System.Windows.Forms.Button();
             this.sbtn_product_in = new System.Windows.Forms.Button();
             this.sbtn_product_manage = new System.Windows.Forms.Button();
-            this.btn_product = new System.Windows.Forms.Button();
             this.panel_basicSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_serviceManage = new System.Windows.Forms.Button();
             this.sbtn_providerAdd = new System.Windows.Forms.Button();
             this.sbtn_providerInfo = new System.Windows.Forms.Button();
-            this.btn_basic = new System.Windows.Forms.Button();
-            this.btn_home = new System.Windows.Forms.Button();
             this.panel_logo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel_bottom = new System.Windows.Forms.Panel();
             this.label_time = new System.Windows.Forms.Label();
             this.label_userRole = new System.Windows.Forms.Label();
@@ -84,8 +69,22 @@
             this.label_logOut = new System.Windows.Forms.Label();
             this.panel_childForm = new System.Windows.Forms.Panel();
             this.timer_time = new System.Windows.Forms.Timer(this.components);
+            this.btn_systemManage = new System.Windows.Forms.Button();
+            this.btn_personalInfo = new System.Windows.Forms.Button();
+            this.btn_financialReport = new System.Windows.Forms.Button();
+            this.btn_salary = new System.Windows.Forms.Button();
+            this.btn_business = new System.Windows.Forms.Button();
+            this.btn_customer = new System.Windows.Forms.Button();
+            this.btn_employee = new System.Windows.Forms.Button();
+            this.btn_product = new System.Windows.Forms.Button();
+            this.btn_basic = new System.Windows.Forms.Button();
+            this.btn_home = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_min = new System.Windows.Forms.Button();
+            this.btn_max = new System.Windows.Forms.Button();
+            this.btn_close = new System.Windows.Forms.Button();
             this.panel_top.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_bigMenu.SuspendLayout();
             this.panel_salarySubMenu.SuspendLayout();
             this.panel_businessSubMenu.SuspendLayout();
@@ -94,8 +93,9 @@
             this.panel_productSubMenu.SuspendLayout();
             this.panel_basicSubMenu.SuspendLayout();
             this.panel_logo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_bottom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_top
@@ -127,58 +127,6 @@
             this.label8.Text = "HairSalonMS 美髮沙龍管理系統";
             this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::HairSalonMS.Properties.Resources.HSMS_logo;
-            this.pictureBox2.Location = new System.Drawing.Point(19, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
-            // 
-            // btn_min
-            // 
-            this.btn_min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_min.FlatAppearance.BorderSize = 0;
-            this.btn_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_min.Image = ((System.Drawing.Image)(resources.GetObject("btn_min.Image")));
-            this.btn_min.Location = new System.Drawing.Point(1132, 0);
-            this.btn_min.Name = "btn_min";
-            this.btn_min.Size = new System.Drawing.Size(50, 50);
-            this.btn_min.TabIndex = 0;
-            this.btn_min.UseVisualStyleBackColor = true;
-            this.btn_min.Click += new System.EventHandler(this.btn_min_Click);
-            // 
-            // btn_max
-            // 
-            this.btn_max.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_max.FlatAppearance.BorderSize = 0;
-            this.btn_max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_max.Image = ((System.Drawing.Image)(resources.GetObject("btn_max.Image")));
-            this.btn_max.Location = new System.Drawing.Point(1181, 0);
-            this.btn_max.Name = "btn_max";
-            this.btn_max.Size = new System.Drawing.Size(50, 50);
-            this.btn_max.TabIndex = 0;
-            this.btn_max.UseVisualStyleBackColor = true;
-            this.btn_max.Click += new System.EventHandler(this.btn_max_Click);
-            // 
-            // btn_close
-            // 
-            this.btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_close.FlatAppearance.BorderSize = 0;
-            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.Location = new System.Drawing.Point(1230, 0);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(50, 50);
-            this.btn_close.TabIndex = 0;
-            this.btn_close.UseVisualStyleBackColor = true;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            this.btn_close.MouseLeave += new System.EventHandler(this.btn_close_MouseLeave);
-            this.btn_close.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_close_MouseMove);
-            // 
             // panel_bigMenu
             // 
             this.panel_bigMenu.AutoScroll = true;
@@ -206,63 +154,6 @@
             this.panel_bigMenu.Name = "panel_bigMenu";
             this.panel_bigMenu.Size = new System.Drawing.Size(220, 750);
             this.panel_bigMenu.TabIndex = 0;
-            // 
-            // btn_systemManage
-            // 
-            this.btn_systemManage.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_systemManage.FlatAppearance.BorderSize = 0;
-            this.btn_systemManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_systemManage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_systemManage.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_systemManage.Image = ((System.Drawing.Image)(resources.GetObject("btn_systemManage.Image")));
-            this.btn_systemManage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_systemManage.Location = new System.Drawing.Point(0, 1630);
-            this.btn_systemManage.Name = "btn_systemManage";
-            this.btn_systemManage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_systemManage.Size = new System.Drawing.Size(199, 55);
-            this.btn_systemManage.TabIndex = 14;
-            this.btn_systemManage.Text = "  系統管理";
-            this.btn_systemManage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_systemManage.UseVisualStyleBackColor = true;
-            this.btn_systemManage.Click += new System.EventHandler(this.btn_systemManage_Click);
-            // 
-            // btn_personalInfo
-            // 
-            this.btn_personalInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_personalInfo.FlatAppearance.BorderSize = 0;
-            this.btn_personalInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_personalInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_personalInfo.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_personalInfo.Image = ((System.Drawing.Image)(resources.GetObject("btn_personalInfo.Image")));
-            this.btn_personalInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1575);
-            this.btn_personalInfo.Name = "btn_personalInfo";
-            this.btn_personalInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_personalInfo.Size = new System.Drawing.Size(199, 55);
-            this.btn_personalInfo.TabIndex = 13;
-            this.btn_personalInfo.Text = "  個人資訊";
-            this.btn_personalInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_personalInfo.UseVisualStyleBackColor = true;
-            this.btn_personalInfo.Click += new System.EventHandler(this.btn_personalInfo_Click);
-            // 
-            // btn_financialReport
-            // 
-            this.btn_financialReport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_financialReport.FlatAppearance.BorderSize = 0;
-            this.btn_financialReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_financialReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_financialReport.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_financialReport.Image = ((System.Drawing.Image)(resources.GetObject("btn_financialReport.Image")));
-            this.btn_financialReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_financialReport.Location = new System.Drawing.Point(0, 1520);
-            this.btn_financialReport.Name = "btn_financialReport";
-            this.btn_financialReport.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_financialReport.Size = new System.Drawing.Size(199, 55);
-            this.btn_financialReport.TabIndex = 12;
-            this.btn_financialReport.Text = "  財務報表";
-            this.btn_financialReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_financialReport.UseVisualStyleBackColor = true;
-            this.btn_financialReport.Click += new System.EventHandler(this.btn_apply_Click);
             // 
             // panel_salarySubMenu
             // 
@@ -307,7 +198,7 @@
             this.sbtn_salaryAssistantCal.TabIndex = 1;
             this.sbtn_salaryAssistantCal.Text = "助理抽成計算表";
             this.sbtn_salaryAssistantCal.UseVisualStyleBackColor = true;
-            this.sbtn_salaryAssistantCal.Click += new System.EventHandler(this.sbtn_salaryAdd_Click);
+            this.sbtn_salaryAssistantCal.Click += new System.EventHandler(this.sbtn_salaryAssistantCal_Click);
             // 
             // sbtn_salaryHairdresserCal
             // 
@@ -323,26 +214,7 @@
             this.sbtn_salaryHairdresserCal.TabIndex = 0;
             this.sbtn_salaryHairdresserCal.Text = "設計師抽成計算表";
             this.sbtn_salaryHairdresserCal.UseVisualStyleBackColor = true;
-            this.sbtn_salaryHairdresserCal.Click += new System.EventHandler(this.sbtn_salaryInfo_Click);
-            // 
-            // btn_salary
-            // 
-            this.btn_salary.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_salary.FlatAppearance.BorderSize = 0;
-            this.btn_salary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_salary.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_salary.Image = ((System.Drawing.Image)(resources.GetObject("btn_salary.Image")));
-            this.btn_salary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_salary.Location = new System.Drawing.Point(0, 1315);
-            this.btn_salary.Name = "btn_salary";
-            this.btn_salary.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_salary.Size = new System.Drawing.Size(199, 55);
-            this.btn_salary.TabIndex = 10;
-            this.btn_salary.Text = "  薪資管理";
-            this.btn_salary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_salary.UseVisualStyleBackColor = true;
-            this.btn_salary.Click += new System.EventHandler(this.btn_salary_Click);
+            this.sbtn_salaryHairdresserCal.Click += new System.EventHandler(this.sbtn_salaryHairdresserCal_Click);
             // 
             // panel_businessSubMenu
             // 
@@ -404,25 +276,6 @@
             this.sbtn_business_income.Text = "營業收入作業";
             this.sbtn_business_income.UseVisualStyleBackColor = true;
             this.sbtn_business_income.Click += new System.EventHandler(this.sbtn_business_income_Click);
-            // 
-            // btn_business
-            // 
-            this.btn_business.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_business.FlatAppearance.BorderSize = 0;
-            this.btn_business.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_business.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_business.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_business.Image = ((System.Drawing.Image)(resources.GetObject("btn_business.Image")));
-            this.btn_business.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_business.Location = new System.Drawing.Point(0, 1110);
-            this.btn_business.Name = "btn_business";
-            this.btn_business.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_business.Size = new System.Drawing.Size(199, 55);
-            this.btn_business.TabIndex = 8;
-            this.btn_business.Text = "  營業管理";
-            this.btn_business.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_business.UseVisualStyleBackColor = true;
-            this.btn_business.Click += new System.EventHandler(this.btn_attendance_Click);
             // 
             // panel_cusSubMenu
             // 
@@ -519,25 +372,6 @@
             this.sbtn_cusInfo.UseVisualStyleBackColor = true;
             this.sbtn_cusInfo.Click += new System.EventHandler(this.sbtn_cusInfo_Click);
             // 
-            // btn_customer
-            // 
-            this.btn_customer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_customer.FlatAppearance.BorderSize = 0;
-            this.btn_customer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_customer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_customer.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_customer.Image = ((System.Drawing.Image)(resources.GetObject("btn_customer.Image")));
-            this.btn_customer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customer.Location = new System.Drawing.Point(0, 805);
-            this.btn_customer.Name = "btn_customer";
-            this.btn_customer.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_customer.Size = new System.Drawing.Size(199, 55);
-            this.btn_customer.TabIndex = 6;
-            this.btn_customer.Text = "  顧客管理";
-            this.btn_customer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_customer.UseVisualStyleBackColor = true;
-            this.btn_customer.Click += new System.EventHandler(this.btn_emp_Click);
-            // 
             // panel_empSubMenu
             // 
             this.panel_empSubMenu.AutoSize = true;
@@ -598,25 +432,6 @@
             this.sbtn_empInfo.Text = "查詢/編輯員工";
             this.sbtn_empInfo.UseVisualStyleBackColor = true;
             this.sbtn_empInfo.Click += new System.EventHandler(this.sbtn_empInfo_Click);
-            // 
-            // btn_employee
-            // 
-            this.btn_employee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_employee.FlatAppearance.BorderSize = 0;
-            this.btn_employee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_employee.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_employee.Image = ((System.Drawing.Image)(resources.GetObject("btn_employee.Image")));
-            this.btn_employee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_employee.Location = new System.Drawing.Point(0, 600);
-            this.btn_employee.Name = "btn_employee";
-            this.btn_employee.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_employee.Size = new System.Drawing.Size(199, 55);
-            this.btn_employee.TabIndex = 4;
-            this.btn_employee.Text = "  員工管理";
-            this.btn_employee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_employee.UseVisualStyleBackColor = true;
-            this.btn_employee.Click += new System.EventHandler(this.btn_teacher_Click);
             // 
             // panel_productSubMenu
             // 
@@ -696,25 +511,6 @@
             this.sbtn_product_manage.UseVisualStyleBackColor = true;
             this.sbtn_product_manage.Click += new System.EventHandler(this.sbtn_product_manage_Click);
             // 
-            // btn_product
-            // 
-            this.btn_product.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_product.FlatAppearance.BorderSize = 0;
-            this.btn_product.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_product.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_product.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_product.Image = ((System.Drawing.Image)(resources.GetObject("btn_product.Image")));
-            this.btn_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_product.Location = new System.Drawing.Point(0, 345);
-            this.btn_product.Name = "btn_product";
-            this.btn_product.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_product.Size = new System.Drawing.Size(199, 55);
-            this.btn_product.TabIndex = 16;
-            this.btn_product.Text = "  庫存管理";
-            this.btn_product.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_product.UseVisualStyleBackColor = true;
-            this.btn_product.Click += new System.EventHandler(this.btn_product_Click);
-            // 
             // panel_basicSubMenu
             // 
             this.panel_basicSubMenu.AutoSize = true;
@@ -776,44 +572,6 @@
             this.sbtn_providerInfo.UseVisualStyleBackColor = true;
             this.sbtn_providerInfo.Click += new System.EventHandler(this.sbtn_providerInfo_Click);
             // 
-            // btn_basic
-            // 
-            this.btn_basic.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_basic.FlatAppearance.BorderSize = 0;
-            this.btn_basic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_basic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_basic.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_basic.Image = ((System.Drawing.Image)(resources.GetObject("btn_basic.Image")));
-            this.btn_basic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_basic.Location = new System.Drawing.Point(0, 140);
-            this.btn_basic.Name = "btn_basic";
-            this.btn_basic.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_basic.Size = new System.Drawing.Size(199, 55);
-            this.btn_basic.TabIndex = 2;
-            this.btn_basic.Text = "  基本資料管理";
-            this.btn_basic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_basic.UseVisualStyleBackColor = true;
-            this.btn_basic.Click += new System.EventHandler(this.btn_dept_Click);
-            // 
-            // btn_home
-            // 
-            this.btn_home.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_home.FlatAppearance.BorderSize = 0;
-            this.btn_home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_home.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_home.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btn_home.Image = ((System.Drawing.Image)(resources.GetObject("btn_home.Image")));
-            this.btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_home.Location = new System.Drawing.Point(0, 85);
-            this.btn_home.Name = "btn_home";
-            this.btn_home.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_home.Size = new System.Drawing.Size(199, 55);
-            this.btn_home.TabIndex = 1;
-            this.btn_home.Text = "  首 頁";
-            this.btn_home.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_home.UseVisualStyleBackColor = true;
-            this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
-            // 
             // panel_logo
             // 
             this.panel_logo.AutoSize = true;
@@ -835,16 +593,6 @@
             this.label1.Size = new System.Drawing.Size(140, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "HairSalonMS";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.HSMS_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel_bottom
             // 
@@ -921,6 +669,258 @@
             // 
             this.timer_time.Tick += new System.EventHandler(this.timer_time_Tick);
             // 
+            // btn_systemManage
+            // 
+            this.btn_systemManage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_systemManage.FlatAppearance.BorderSize = 0;
+            this.btn_systemManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_systemManage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_systemManage.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_systemManage.Image = ((System.Drawing.Image)(resources.GetObject("btn_systemManage.Image")));
+            this.btn_systemManage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_systemManage.Location = new System.Drawing.Point(0, 1630);
+            this.btn_systemManage.Name = "btn_systemManage";
+            this.btn_systemManage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_systemManage.Size = new System.Drawing.Size(199, 55);
+            this.btn_systemManage.TabIndex = 14;
+            this.btn_systemManage.Text = "  系統管理";
+            this.btn_systemManage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_systemManage.UseVisualStyleBackColor = true;
+            this.btn_systemManage.Click += new System.EventHandler(this.btn_systemManage_Click);
+            // 
+            // btn_personalInfo
+            // 
+            this.btn_personalInfo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_personalInfo.FlatAppearance.BorderSize = 0;
+            this.btn_personalInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_personalInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_personalInfo.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_personalInfo.Image = ((System.Drawing.Image)(resources.GetObject("btn_personalInfo.Image")));
+            this.btn_personalInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1575);
+            this.btn_personalInfo.Name = "btn_personalInfo";
+            this.btn_personalInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_personalInfo.Size = new System.Drawing.Size(199, 55);
+            this.btn_personalInfo.TabIndex = 13;
+            this.btn_personalInfo.Text = "  個人資訊";
+            this.btn_personalInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_personalInfo.UseVisualStyleBackColor = true;
+            this.btn_personalInfo.Click += new System.EventHandler(this.btn_personalInfo_Click);
+            // 
+            // btn_financialReport
+            // 
+            this.btn_financialReport.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_financialReport.FlatAppearance.BorderSize = 0;
+            this.btn_financialReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_financialReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_financialReport.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_financialReport.Image = ((System.Drawing.Image)(resources.GetObject("btn_financialReport.Image")));
+            this.btn_financialReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_financialReport.Location = new System.Drawing.Point(0, 1520);
+            this.btn_financialReport.Name = "btn_financialReport";
+            this.btn_financialReport.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_financialReport.Size = new System.Drawing.Size(199, 55);
+            this.btn_financialReport.TabIndex = 12;
+            this.btn_financialReport.Text = "  財務報表";
+            this.btn_financialReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_financialReport.UseVisualStyleBackColor = true;
+            this.btn_financialReport.Click += new System.EventHandler(this.btn_apply_Click);
+            // 
+            // btn_salary
+            // 
+            this.btn_salary.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_salary.FlatAppearance.BorderSize = 0;
+            this.btn_salary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_salary.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_salary.Image = ((System.Drawing.Image)(resources.GetObject("btn_salary.Image")));
+            this.btn_salary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_salary.Location = new System.Drawing.Point(0, 1315);
+            this.btn_salary.Name = "btn_salary";
+            this.btn_salary.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_salary.Size = new System.Drawing.Size(199, 55);
+            this.btn_salary.TabIndex = 10;
+            this.btn_salary.Text = "  薪資管理";
+            this.btn_salary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_salary.UseVisualStyleBackColor = true;
+            this.btn_salary.Click += new System.EventHandler(this.btn_salary_Click);
+            // 
+            // btn_business
+            // 
+            this.btn_business.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_business.FlatAppearance.BorderSize = 0;
+            this.btn_business.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_business.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_business.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_business.Image = ((System.Drawing.Image)(resources.GetObject("btn_business.Image")));
+            this.btn_business.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_business.Location = new System.Drawing.Point(0, 1110);
+            this.btn_business.Name = "btn_business";
+            this.btn_business.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_business.Size = new System.Drawing.Size(199, 55);
+            this.btn_business.TabIndex = 8;
+            this.btn_business.Text = "  營業管理";
+            this.btn_business.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_business.UseVisualStyleBackColor = true;
+            this.btn_business.Click += new System.EventHandler(this.btn_attendance_Click);
+            // 
+            // btn_customer
+            // 
+            this.btn_customer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_customer.FlatAppearance.BorderSize = 0;
+            this.btn_customer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_customer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_customer.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_customer.Image = ((System.Drawing.Image)(resources.GetObject("btn_customer.Image")));
+            this.btn_customer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_customer.Location = new System.Drawing.Point(0, 805);
+            this.btn_customer.Name = "btn_customer";
+            this.btn_customer.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_customer.Size = new System.Drawing.Size(199, 55);
+            this.btn_customer.TabIndex = 6;
+            this.btn_customer.Text = "  顧客管理";
+            this.btn_customer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_customer.UseVisualStyleBackColor = true;
+            this.btn_customer.Click += new System.EventHandler(this.btn_emp_Click);
+            // 
+            // btn_employee
+            // 
+            this.btn_employee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_employee.FlatAppearance.BorderSize = 0;
+            this.btn_employee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_employee.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_employee.Image = ((System.Drawing.Image)(resources.GetObject("btn_employee.Image")));
+            this.btn_employee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_employee.Location = new System.Drawing.Point(0, 600);
+            this.btn_employee.Name = "btn_employee";
+            this.btn_employee.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_employee.Size = new System.Drawing.Size(199, 55);
+            this.btn_employee.TabIndex = 4;
+            this.btn_employee.Text = "  員工管理";
+            this.btn_employee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_employee.UseVisualStyleBackColor = true;
+            this.btn_employee.Click += new System.EventHandler(this.btn_teacher_Click);
+            // 
+            // btn_product
+            // 
+            this.btn_product.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_product.FlatAppearance.BorderSize = 0;
+            this.btn_product.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_product.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_product.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_product.Image = ((System.Drawing.Image)(resources.GetObject("btn_product.Image")));
+            this.btn_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_product.Location = new System.Drawing.Point(0, 345);
+            this.btn_product.Name = "btn_product";
+            this.btn_product.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_product.Size = new System.Drawing.Size(199, 55);
+            this.btn_product.TabIndex = 16;
+            this.btn_product.Text = "  庫存管理";
+            this.btn_product.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_product.UseVisualStyleBackColor = true;
+            this.btn_product.Click += new System.EventHandler(this.btn_product_Click);
+            // 
+            // btn_basic
+            // 
+            this.btn_basic.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_basic.FlatAppearance.BorderSize = 0;
+            this.btn_basic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_basic.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_basic.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_basic.Image = ((System.Drawing.Image)(resources.GetObject("btn_basic.Image")));
+            this.btn_basic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_basic.Location = new System.Drawing.Point(0, 140);
+            this.btn_basic.Name = "btn_basic";
+            this.btn_basic.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_basic.Size = new System.Drawing.Size(199, 55);
+            this.btn_basic.TabIndex = 2;
+            this.btn_basic.Text = "  基本資料管理";
+            this.btn_basic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_basic.UseVisualStyleBackColor = true;
+            this.btn_basic.Click += new System.EventHandler(this.btn_dept_Click);
+            // 
+            // btn_home
+            // 
+            this.btn_home.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_home.FlatAppearance.BorderSize = 0;
+            this.btn_home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_home.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_home.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_home.Image = ((System.Drawing.Image)(resources.GetObject("btn_home.Image")));
+            this.btn_home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_home.Location = new System.Drawing.Point(0, 85);
+            this.btn_home.Name = "btn_home";
+            this.btn_home.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btn_home.Size = new System.Drawing.Size(199, 55);
+            this.btn_home.TabIndex = 1;
+            this.btn_home.Text = "  首 頁";
+            this.btn_home.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_home.UseVisualStyleBackColor = true;
+            this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HairSalonMS.Properties.Resources.HSMS_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(19, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::HairSalonMS.Properties.Resources.HSMS_logo;
+            this.pictureBox2.Location = new System.Drawing.Point(19, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // btn_min
+            // 
+            this.btn_min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_min.FlatAppearance.BorderSize = 0;
+            this.btn_min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_min.Image = ((System.Drawing.Image)(resources.GetObject("btn_min.Image")));
+            this.btn_min.Location = new System.Drawing.Point(1132, 0);
+            this.btn_min.Name = "btn_min";
+            this.btn_min.Size = new System.Drawing.Size(50, 50);
+            this.btn_min.TabIndex = 0;
+            this.btn_min.UseVisualStyleBackColor = true;
+            this.btn_min.Click += new System.EventHandler(this.btn_min_Click);
+            // 
+            // btn_max
+            // 
+            this.btn_max.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_max.FlatAppearance.BorderSize = 0;
+            this.btn_max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_max.Image = ((System.Drawing.Image)(resources.GetObject("btn_max.Image")));
+            this.btn_max.Location = new System.Drawing.Point(1181, 0);
+            this.btn_max.Name = "btn_max";
+            this.btn_max.Size = new System.Drawing.Size(50, 50);
+            this.btn_max.TabIndex = 0;
+            this.btn_max.UseVisualStyleBackColor = true;
+            this.btn_max.Click += new System.EventHandler(this.btn_max_Click);
+            // 
+            // btn_close
+            // 
+            this.btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(1230, 0);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 50);
+            this.btn_close.TabIndex = 0;
+            this.btn_close.UseVisualStyleBackColor = true;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            this.btn_close.MouseLeave += new System.EventHandler(this.btn_close_MouseLeave);
+            this.btn_close.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_close_MouseMove);
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -941,7 +941,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_bigMenu.ResumeLayout(false);
             this.panel_bigMenu.PerformLayout();
             this.panel_salarySubMenu.ResumeLayout(false);
@@ -952,9 +951,10 @@
             this.panel_basicSubMenu.ResumeLayout(false);
             this.panel_logo.ResumeLayout(false);
             this.panel_logo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_bottom.ResumeLayout(false);
             this.panel_bottom.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -207,6 +207,13 @@ namespace SHRMS
             openChildForm(frm);
         }
 
+        private void sbtn_providerAdd_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_providerAdd);
+            childForm_providerAdd frm = new childForm_providerAdd();
+            openChildForm(frm);
+        }
+
         private void sbtn_serviceManage_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_serviceManage);
@@ -265,7 +272,7 @@ namespace SHRMS
         private void sbtn_cusInfo_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_cusInfo);
-            childForm_empInfo frm = new childForm_empInfo();
+            childForm_cusInfo frm = new childForm_cusInfo();
             openChildForm(frm);
         }
 
@@ -279,7 +286,21 @@ namespace SHRMS
         private void sbtn_cusAdd_Click(object sender, EventArgs e)
         {
             selectedBackground_sub(sbtn_cusAdd);
-            childForm_empAdd frm = new childForm_empAdd();
+            childForm_cusAdd frm = new childForm_cusAdd();
+            openChildForm(frm);
+        }
+
+        private void sbtn_cusCardSell_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_cusCardSell);
+            childForm_developing frm = new childForm_developing();
+            openChildForm(frm);
+        }
+
+        private void sbtn_cusCardUse_Click(object sender, EventArgs e)
+        {
+            selectedBackground_sub(sbtn_cusCardUse);
+            childForm_developing2 frm = new childForm_developing2();
             openChildForm(frm);
         }
 

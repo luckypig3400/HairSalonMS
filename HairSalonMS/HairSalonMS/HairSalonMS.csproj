@@ -82,11 +82,29 @@
     <Compile Include="childForm\childForm_attendanceInfo.Designer.cs">
       <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="childForm\childForm_cusInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_cusInfo.Designer.cs">
+      <DependentUpon>childForm_cusInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_cusAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_cusAdd.Designer.cs">
+      <DependentUpon>childForm_cusAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="childForm\childForm_serviceManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="childForm\childForm_serviceManage.Designer.cs">
       <DependentUpon>childForm_serviceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="childForm\childForm_providerAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="childForm\childForm_providerAdd.Designer.cs">
+      <DependentUpon>childForm_providerAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="childForm\childForm_providerInfo.cs">
       <SubType>Form</SubType>
@@ -181,8 +199,17 @@
     <EmbeddedResource Include="childForm\childForm_attendanceInfo.resx">
       <DependentUpon>childForm_attendanceInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_cusInfo.resx">
+      <DependentUpon>childForm_cusInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_cusAdd.resx">
+      <DependentUpon>childForm_cusAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_serviceManage.resx">
       <DependentUpon>childForm_serviceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="childForm\childForm_providerAdd.resx">
+      <DependentUpon>childForm_providerAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="childForm\childForm_providerInfo.resx">
       <DependentUpon>childForm_providerInfo.cs</DependentUpon>

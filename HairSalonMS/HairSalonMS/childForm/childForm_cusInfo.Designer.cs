@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_empInfo
+    partial class childForm_cusInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(358, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：員工管理 > 查詢/編輯員工";
+            this.label1.Text = "位置：顧客管理 > 查詢/編輯顧客";
             // 
             // panel_center
             // 
@@ -120,7 +120,7 @@
             this.label_query.Name = "label_query";
             this.label_query.Size = new System.Drawing.Size(187, 29);
             this.label_query.TabIndex = 51;
-            this.label_query.Text = "按員工編號查詢:";
+            this.label_query.Text = "按顧客編號查詢:";
             // 
             // comboBox_type
             // 
@@ -178,7 +178,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(181, 29);
             this.label9.TabIndex = 46;
-            this.label9.Text = "員工居住城市：";
+            this.label9.Text = "顧客居住城市：";
             // 
             // btn_save
             // 
@@ -240,7 +240,7 @@
             this.dataGridView_emp.Size = new System.Drawing.Size(1060, 502);
             this.dataGridView_emp.TabIndex = 0;
             // 
-            // childForm_empInfo
+            // childForm_cusInfo
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1060, 710);
@@ -249,8 +249,8 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "childForm_empInfo";
-            this.Text = "childForm_empInfo";
+            this.Name = "childForm_cusInfo";
+            this.Text = "childForm_cusInfo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel_center.ResumeLayout(false);

@@ -1,6 +1,6 @@
 ﻿namespace SHRMS.childForm
 {
-    partial class childForm_empAdd
+    partial class childForm_cusAdd
     {
         /// <summary>
         /// Required designer variable.
@@ -88,7 +88,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(303, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "位置：員工管理 > 新增員工";
+            this.label1.Text = "位置：顧客管理 > 新增顧客";
             // 
             // btn_deptAdd
             // 
@@ -101,7 +101,7 @@
             this.btn_deptAdd.Name = "btn_deptAdd";
             this.btn_deptAdd.Size = new System.Drawing.Size(205, 41);
             this.btn_deptAdd.TabIndex = 18;
-            this.btn_deptAdd.Text = "點擊添加員工";
+            this.btn_deptAdd.Text = "點擊添加顧客";
             this.btn_deptAdd.UseVisualStyleBackColor = false;
             // 
             // textBox_deptNo
@@ -153,7 +153,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(133, 29);
             this.label5.TabIndex = 23;
-            this.label5.Text = "員工編號：";
+            this.label5.Text = "顧客編號：";
             // 
             // label4
             // 
@@ -405,7 +405,7 @@
             this.label15.TabIndex = 33;
             this.label15.Text = "郵  箱：";
             // 
-            // childForm_empAdd
+            // childForm_cusAdd
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1060, 710);
@@ -414,8 +414,8 @@
             this.Controls.Add(this.panel_top);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "childForm_empAdd";
-            this.Text = "childForm_empAdd";
+            this.Name = "childForm_cusAdd";
+            this.Text = "childForm_cusAdd";
             this.panel_top.ResumeLayout(false);
             this.panel_top.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

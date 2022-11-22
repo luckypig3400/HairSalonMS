@@ -70,6 +70,7 @@
             this.btn_product = new System.Windows.Forms.Button();
             this.panel_basicSubMenu = new System.Windows.Forms.Panel();
             this.sbtn_serviceManage = new System.Windows.Forms.Button();
+            this.sbtn_providerAdd = new System.Windows.Forms.Button();
             this.sbtn_providerInfo = new System.Windows.Forms.Button();
             this.btn_basic = new System.Windows.Forms.Button();
             this.btn_home = new System.Windows.Forms.Button();
@@ -121,7 +122,7 @@
             this.label8.Location = new System.Drawing.Point(61, 15);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(235, 20);
+            this.label8.Size = new System.Drawing.Size(294, 25);
             this.label8.TabIndex = 2;
             this.label8.Text = "HairSalonMS 美髮沙龍管理系統";
             this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
@@ -215,10 +216,10 @@
             this.btn_systemManage.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_systemManage.Image = ((System.Drawing.Image)(resources.GetObject("btn_systemManage.Image")));
             this.btn_systemManage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_systemManage.Location = new System.Drawing.Point(0, 1580);
+            this.btn_systemManage.Location = new System.Drawing.Point(0, 1630);
             this.btn_systemManage.Name = "btn_systemManage";
             this.btn_systemManage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_systemManage.Size = new System.Drawing.Size(203, 55);
+            this.btn_systemManage.Size = new System.Drawing.Size(199, 55);
             this.btn_systemManage.TabIndex = 14;
             this.btn_systemManage.Text = "  系統管理";
             this.btn_systemManage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -234,10 +235,10 @@
             this.btn_personalInfo.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_personalInfo.Image = ((System.Drawing.Image)(resources.GetObject("btn_personalInfo.Image")));
             this.btn_personalInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1525);
+            this.btn_personalInfo.Location = new System.Drawing.Point(0, 1575);
             this.btn_personalInfo.Name = "btn_personalInfo";
             this.btn_personalInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_personalInfo.Size = new System.Drawing.Size(203, 55);
+            this.btn_personalInfo.Size = new System.Drawing.Size(199, 55);
             this.btn_personalInfo.TabIndex = 13;
             this.btn_personalInfo.Text = "  個人資訊";
             this.btn_personalInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -253,10 +254,10 @@
             this.btn_financialReport.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_financialReport.Image = ((System.Drawing.Image)(resources.GetObject("btn_financialReport.Image")));
             this.btn_financialReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_financialReport.Location = new System.Drawing.Point(0, 1470);
+            this.btn_financialReport.Location = new System.Drawing.Point(0, 1520);
             this.btn_financialReport.Name = "btn_financialReport";
             this.btn_financialReport.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_financialReport.Size = new System.Drawing.Size(203, 55);
+            this.btn_financialReport.Size = new System.Drawing.Size(199, 55);
             this.btn_financialReport.TabIndex = 12;
             this.btn_financialReport.Text = "  財務報表";
             this.btn_financialReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -271,9 +272,9 @@
             this.panel_salarySubMenu.Controls.Add(this.sbtn_salaryAssistantCal);
             this.panel_salarySubMenu.Controls.Add(this.sbtn_salaryHairdresserCal);
             this.panel_salarySubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_salarySubMenu.Location = new System.Drawing.Point(0, 1320);
+            this.panel_salarySubMenu.Location = new System.Drawing.Point(0, 1370);
             this.panel_salarySubMenu.Name = "panel_salarySubMenu";
-            this.panel_salarySubMenu.Size = new System.Drawing.Size(203, 150);
+            this.panel_salarySubMenu.Size = new System.Drawing.Size(199, 150);
             this.panel_salarySubMenu.TabIndex = 11;
             // 
             // sbtn_salaryReport
@@ -286,7 +287,7 @@
             this.sbtn_salaryReport.Location = new System.Drawing.Point(0, 100);
             this.sbtn_salaryReport.Name = "sbtn_salaryReport";
             this.sbtn_salaryReport.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_salaryReport.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_salaryReport.Size = new System.Drawing.Size(199, 50);
             this.sbtn_salaryReport.TabIndex = 2;
             this.sbtn_salaryReport.Text = "薪資總表";
             this.sbtn_salaryReport.UseVisualStyleBackColor = true;
@@ -302,7 +303,7 @@
             this.sbtn_salaryAssistantCal.Location = new System.Drawing.Point(0, 50);
             this.sbtn_salaryAssistantCal.Name = "sbtn_salaryAssistantCal";
             this.sbtn_salaryAssistantCal.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_salaryAssistantCal.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_salaryAssistantCal.Size = new System.Drawing.Size(199, 50);
             this.sbtn_salaryAssistantCal.TabIndex = 1;
             this.sbtn_salaryAssistantCal.Text = "助理抽成計算表";
             this.sbtn_salaryAssistantCal.UseVisualStyleBackColor = true;
@@ -318,7 +319,7 @@
             this.sbtn_salaryHairdresserCal.Location = new System.Drawing.Point(0, 0);
             this.sbtn_salaryHairdresserCal.Name = "sbtn_salaryHairdresserCal";
             this.sbtn_salaryHairdresserCal.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_salaryHairdresserCal.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_salaryHairdresserCal.Size = new System.Drawing.Size(199, 50);
             this.sbtn_salaryHairdresserCal.TabIndex = 0;
             this.sbtn_salaryHairdresserCal.Text = "設計師抽成計算表";
             this.sbtn_salaryHairdresserCal.UseVisualStyleBackColor = true;
@@ -333,10 +334,10 @@
             this.btn_salary.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_salary.Image = ((System.Drawing.Image)(resources.GetObject("btn_salary.Image")));
             this.btn_salary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_salary.Location = new System.Drawing.Point(0, 1265);
+            this.btn_salary.Location = new System.Drawing.Point(0, 1315);
             this.btn_salary.Name = "btn_salary";
             this.btn_salary.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_salary.Size = new System.Drawing.Size(203, 55);
+            this.btn_salary.Size = new System.Drawing.Size(199, 55);
             this.btn_salary.TabIndex = 10;
             this.btn_salary.Text = "  薪資管理";
             this.btn_salary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -351,9 +352,9 @@
             this.panel_businessSubMenu.Controls.Add(this.sbtn_business_other);
             this.panel_businessSubMenu.Controls.Add(this.sbtn_business_income);
             this.panel_businessSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_businessSubMenu.Location = new System.Drawing.Point(0, 1115);
+            this.panel_businessSubMenu.Location = new System.Drawing.Point(0, 1165);
             this.panel_businessSubMenu.Name = "panel_businessSubMenu";
-            this.panel_businessSubMenu.Size = new System.Drawing.Size(203, 150);
+            this.panel_businessSubMenu.Size = new System.Drawing.Size(199, 150);
             this.panel_businessSubMenu.TabIndex = 9;
             // 
             // sbtn_business_report
@@ -366,7 +367,7 @@
             this.sbtn_business_report.Location = new System.Drawing.Point(0, 100);
             this.sbtn_business_report.Name = "sbtn_business_report";
             this.sbtn_business_report.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_business_report.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_business_report.Size = new System.Drawing.Size(199, 50);
             this.sbtn_business_report.TabIndex = 2;
             this.sbtn_business_report.Text = "營業報表(日/月/年)";
             this.sbtn_business_report.UseVisualStyleBackColor = true;
@@ -381,7 +382,7 @@
             this.sbtn_business_other.Location = new System.Drawing.Point(0, 50);
             this.sbtn_business_other.Name = "sbtn_business_other";
             this.sbtn_business_other.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_business_other.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_business_other.Size = new System.Drawing.Size(199, 50);
             this.sbtn_business_other.TabIndex = 1;
             this.sbtn_business_other.Text = "其他收入/支出作業";
             this.sbtn_business_other.UseVisualStyleBackColor = true;
@@ -397,7 +398,7 @@
             this.sbtn_business_income.Location = new System.Drawing.Point(0, 0);
             this.sbtn_business_income.Name = "sbtn_business_income";
             this.sbtn_business_income.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_business_income.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_business_income.Size = new System.Drawing.Size(199, 50);
             this.sbtn_business_income.TabIndex = 0;
             this.sbtn_business_income.Text = "營業收入作業";
             this.sbtn_business_income.UseVisualStyleBackColor = true;
@@ -412,10 +413,10 @@
             this.btn_business.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_business.Image = ((System.Drawing.Image)(resources.GetObject("btn_business.Image")));
             this.btn_business.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_business.Location = new System.Drawing.Point(0, 1060);
+            this.btn_business.Location = new System.Drawing.Point(0, 1110);
             this.btn_business.Name = "btn_business";
             this.btn_business.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_business.Size = new System.Drawing.Size(203, 55);
+            this.btn_business.Size = new System.Drawing.Size(199, 55);
             this.btn_business.TabIndex = 8;
             this.btn_business.Text = "  營業管理";
             this.btn_business.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -432,9 +433,9 @@
             this.panel_cusSubMenu.Controls.Add(this.sbtn_cusAnalyze);
             this.panel_cusSubMenu.Controls.Add(this.sbtn_cusInfo);
             this.panel_cusSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_cusSubMenu.Location = new System.Drawing.Point(0, 810);
+            this.panel_cusSubMenu.Location = new System.Drawing.Point(0, 860);
             this.panel_cusSubMenu.Name = "panel_cusSubMenu";
-            this.panel_cusSubMenu.Size = new System.Drawing.Size(203, 250);
+            this.panel_cusSubMenu.Size = new System.Drawing.Size(199, 250);
             this.panel_cusSubMenu.TabIndex = 7;
             // 
             // sbtn_cusCardUse
@@ -447,10 +448,11 @@
             this.sbtn_cusCardUse.Location = new System.Drawing.Point(0, 200);
             this.sbtn_cusCardUse.Name = "sbtn_cusCardUse";
             this.sbtn_cusCardUse.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_cusCardUse.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_cusCardUse.Size = new System.Drawing.Size(199, 50);
             this.sbtn_cusCardUse.TabIndex = 4;
             this.sbtn_cusCardUse.Text = "卡券使用管理";
             this.sbtn_cusCardUse.UseVisualStyleBackColor = true;
+            this.sbtn_cusCardUse.Click += new System.EventHandler(this.sbtn_cusCardUse_Click);
             // 
             // sbtn_cusCardSell
             // 
@@ -462,10 +464,11 @@
             this.sbtn_cusCardSell.Location = new System.Drawing.Point(0, 150);
             this.sbtn_cusCardSell.Name = "sbtn_cusCardSell";
             this.sbtn_cusCardSell.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_cusCardSell.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_cusCardSell.Size = new System.Drawing.Size(199, 50);
             this.sbtn_cusCardSell.TabIndex = 3;
             this.sbtn_cusCardSell.Text = "卡券販售管理";
             this.sbtn_cusCardSell.UseVisualStyleBackColor = true;
+            this.sbtn_cusCardSell.Click += new System.EventHandler(this.sbtn_cusCardSell_Click);
             // 
             // sbtn_cusAdd
             // 
@@ -477,11 +480,11 @@
             this.sbtn_cusAdd.Location = new System.Drawing.Point(0, 100);
             this.sbtn_cusAdd.Name = "sbtn_cusAdd";
             this.sbtn_cusAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_cusAdd.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_cusAdd.Size = new System.Drawing.Size(199, 50);
             this.sbtn_cusAdd.TabIndex = 2;
             this.sbtn_cusAdd.Text = "新增顧客";
             this.sbtn_cusAdd.UseVisualStyleBackColor = true;
-            this.sbtn_cusAdd.Click += new System.EventHandler(this.sbtn_empAdd_Click);
+            this.sbtn_cusAdd.Click += new System.EventHandler(this.sbtn_cusAdd_Click);
             // 
             // sbtn_cusAnalyze
             // 
@@ -493,7 +496,7 @@
             this.sbtn_cusAnalyze.Location = new System.Drawing.Point(0, 50);
             this.sbtn_cusAnalyze.Name = "sbtn_cusAnalyze";
             this.sbtn_cusAnalyze.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_cusAnalyze.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_cusAnalyze.Size = new System.Drawing.Size(199, 50);
             this.sbtn_cusAnalyze.TabIndex = 1;
             this.sbtn_cusAnalyze.Text = "顧客消費分析";
             this.sbtn_cusAnalyze.UseVisualStyleBackColor = true;
@@ -509,7 +512,7 @@
             this.sbtn_cusInfo.Location = new System.Drawing.Point(0, 0);
             this.sbtn_cusInfo.Name = "sbtn_cusInfo";
             this.sbtn_cusInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_cusInfo.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_cusInfo.Size = new System.Drawing.Size(199, 50);
             this.sbtn_cusInfo.TabIndex = 0;
             this.sbtn_cusInfo.Text = "查詢/編輯顧客";
             this.sbtn_cusInfo.UseVisualStyleBackColor = true;
@@ -524,10 +527,10 @@
             this.btn_customer.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_customer.Image = ((System.Drawing.Image)(resources.GetObject("btn_customer.Image")));
             this.btn_customer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customer.Location = new System.Drawing.Point(0, 755);
+            this.btn_customer.Location = new System.Drawing.Point(0, 805);
             this.btn_customer.Name = "btn_customer";
             this.btn_customer.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_customer.Size = new System.Drawing.Size(203, 55);
+            this.btn_customer.Size = new System.Drawing.Size(199, 55);
             this.btn_customer.TabIndex = 6;
             this.btn_customer.Text = "  顧客管理";
             this.btn_customer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -542,9 +545,9 @@
             this.panel_empSubMenu.Controls.Add(this.sbtn_empAchievement);
             this.panel_empSubMenu.Controls.Add(this.sbtn_empInfo);
             this.panel_empSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_empSubMenu.Location = new System.Drawing.Point(0, 605);
+            this.panel_empSubMenu.Location = new System.Drawing.Point(0, 655);
             this.panel_empSubMenu.Name = "panel_empSubMenu";
-            this.panel_empSubMenu.Size = new System.Drawing.Size(203, 150);
+            this.panel_empSubMenu.Size = new System.Drawing.Size(199, 150);
             this.panel_empSubMenu.TabIndex = 5;
             // 
             // sbtn_empAdd
@@ -557,7 +560,7 @@
             this.sbtn_empAdd.Location = new System.Drawing.Point(0, 100);
             this.sbtn_empAdd.Name = "sbtn_empAdd";
             this.sbtn_empAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_empAdd.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_empAdd.Size = new System.Drawing.Size(199, 50);
             this.sbtn_empAdd.TabIndex = 2;
             this.sbtn_empAdd.Text = "新增員工";
             this.sbtn_empAdd.UseVisualStyleBackColor = true;
@@ -573,7 +576,7 @@
             this.sbtn_empAchievement.Location = new System.Drawing.Point(0, 50);
             this.sbtn_empAchievement.Name = "sbtn_empAchievement";
             this.sbtn_empAchievement.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_empAchievement.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_empAchievement.Size = new System.Drawing.Size(199, 50);
             this.sbtn_empAchievement.TabIndex = 1;
             this.sbtn_empAchievement.Text = "員工業績分析";
             this.sbtn_empAchievement.UseVisualStyleBackColor = true;
@@ -589,7 +592,7 @@
             this.sbtn_empInfo.Location = new System.Drawing.Point(0, 0);
             this.sbtn_empInfo.Name = "sbtn_empInfo";
             this.sbtn_empInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_empInfo.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_empInfo.Size = new System.Drawing.Size(199, 50);
             this.sbtn_empInfo.TabIndex = 0;
             this.sbtn_empInfo.Text = "查詢/編輯員工";
             this.sbtn_empInfo.UseVisualStyleBackColor = true;
@@ -604,10 +607,10 @@
             this.btn_employee.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_employee.Image = ((System.Drawing.Image)(resources.GetObject("btn_employee.Image")));
             this.btn_employee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_employee.Location = new System.Drawing.Point(0, 550);
+            this.btn_employee.Location = new System.Drawing.Point(0, 600);
             this.btn_employee.Name = "btn_employee";
             this.btn_employee.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_employee.Size = new System.Drawing.Size(203, 55);
+            this.btn_employee.Size = new System.Drawing.Size(199, 55);
             this.btn_employee.TabIndex = 4;
             this.btn_employee.Text = "  員工管理";
             this.btn_employee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -623,9 +626,9 @@
             this.panel_productSubMenu.Controls.Add(this.sbtn_product_in);
             this.panel_productSubMenu.Controls.Add(this.sbtn_product_manage);
             this.panel_productSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_productSubMenu.Location = new System.Drawing.Point(0, 350);
+            this.panel_productSubMenu.Location = new System.Drawing.Point(0, 400);
             this.panel_productSubMenu.Name = "panel_productSubMenu";
-            this.panel_productSubMenu.Size = new System.Drawing.Size(203, 200);
+            this.panel_productSubMenu.Size = new System.Drawing.Size(199, 200);
             this.panel_productSubMenu.TabIndex = 15;
             // 
             // sbtn_product_report
@@ -638,7 +641,7 @@
             this.sbtn_product_report.Location = new System.Drawing.Point(0, 150);
             this.sbtn_product_report.Name = "sbtn_product_report";
             this.sbtn_product_report.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_product_report.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_product_report.Size = new System.Drawing.Size(199, 50);
             this.sbtn_product_report.TabIndex = 1;
             this.sbtn_product_report.Text = "庫存存量表";
             this.sbtn_product_report.UseVisualStyleBackColor = true;
@@ -654,7 +657,7 @@
             this.sbtn_product_refund.Location = new System.Drawing.Point(0, 100);
             this.sbtn_product_refund.Name = "sbtn_product_refund";
             this.sbtn_product_refund.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_product_refund.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_product_refund.Size = new System.Drawing.Size(199, 50);
             this.sbtn_product_refund.TabIndex = 2;
             this.sbtn_product_refund.Text = "產品退貨作業";
             this.sbtn_product_refund.UseVisualStyleBackColor = true;
@@ -670,7 +673,7 @@
             this.sbtn_product_in.Location = new System.Drawing.Point(0, 50);
             this.sbtn_product_in.Name = "sbtn_product_in";
             this.sbtn_product_in.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_product_in.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_product_in.Size = new System.Drawing.Size(199, 50);
             this.sbtn_product_in.TabIndex = 0;
             this.sbtn_product_in.Text = "產品進貨作業";
             this.sbtn_product_in.UseVisualStyleBackColor = true;
@@ -686,7 +689,7 @@
             this.sbtn_product_manage.Location = new System.Drawing.Point(0, 0);
             this.sbtn_product_manage.Name = "sbtn_product_manage";
             this.sbtn_product_manage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_product_manage.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_product_manage.Size = new System.Drawing.Size(199, 50);
             this.sbtn_product_manage.TabIndex = 2;
             this.sbtn_product_manage.Text = "產品基本資料";
             this.sbtn_product_manage.UseVisualStyleBackColor = true;
@@ -701,10 +704,10 @@
             this.btn_product.ForeColor = System.Drawing.Color.Gainsboro;
             this.btn_product.Image = ((System.Drawing.Image)(resources.GetObject("btn_product.Image")));
             this.btn_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_product.Location = new System.Drawing.Point(0, 295);
+            this.btn_product.Location = new System.Drawing.Point(0, 345);
             this.btn_product.Name = "btn_product";
             this.btn_product.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_product.Size = new System.Drawing.Size(203, 55);
+            this.btn_product.Size = new System.Drawing.Size(199, 55);
             this.btn_product.TabIndex = 16;
             this.btn_product.Text = "  庫存管理";
             this.btn_product.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -716,11 +719,12 @@
             this.panel_basicSubMenu.AutoSize = true;
             this.panel_basicSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
             this.panel_basicSubMenu.Controls.Add(this.sbtn_serviceManage);
+            this.panel_basicSubMenu.Controls.Add(this.sbtn_providerAdd);
             this.panel_basicSubMenu.Controls.Add(this.sbtn_providerInfo);
             this.panel_basicSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_basicSubMenu.Location = new System.Drawing.Point(0, 195);
             this.panel_basicSubMenu.Name = "panel_basicSubMenu";
-            this.panel_basicSubMenu.Size = new System.Drawing.Size(203, 100);
+            this.panel_basicSubMenu.Size = new System.Drawing.Size(199, 150);
             this.panel_basicSubMenu.TabIndex = 3;
             // 
             // sbtn_serviceManage
@@ -730,14 +734,30 @@
             this.sbtn_serviceManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sbtn_serviceManage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.sbtn_serviceManage.ForeColor = System.Drawing.Color.LightGray;
-            this.sbtn_serviceManage.Location = new System.Drawing.Point(0, 50);
+            this.sbtn_serviceManage.Location = new System.Drawing.Point(0, 100);
             this.sbtn_serviceManage.Name = "sbtn_serviceManage";
             this.sbtn_serviceManage.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_serviceManage.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_serviceManage.Size = new System.Drawing.Size(199, 50);
             this.sbtn_serviceManage.TabIndex = 1;
             this.sbtn_serviceManage.Text = "美髮服務項目";
             this.sbtn_serviceManage.UseVisualStyleBackColor = true;
             this.sbtn_serviceManage.Click += new System.EventHandler(this.sbtn_serviceManage_Click);
+            // 
+            // sbtn_providerAdd
+            // 
+            this.sbtn_providerAdd.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sbtn_providerAdd.FlatAppearance.BorderSize = 0;
+            this.sbtn_providerAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sbtn_providerAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.sbtn_providerAdd.ForeColor = System.Drawing.Color.LightGray;
+            this.sbtn_providerAdd.Location = new System.Drawing.Point(0, 50);
+            this.sbtn_providerAdd.Name = "sbtn_providerAdd";
+            this.sbtn_providerAdd.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.sbtn_providerAdd.Size = new System.Drawing.Size(199, 50);
+            this.sbtn_providerAdd.TabIndex = 2;
+            this.sbtn_providerAdd.Text = "新增廠商";
+            this.sbtn_providerAdd.UseVisualStyleBackColor = true;
+            this.sbtn_providerAdd.Click += new System.EventHandler(this.sbtn_providerAdd_Click);
             // 
             // sbtn_providerInfo
             // 
@@ -749,7 +769,7 @@
             this.sbtn_providerInfo.Location = new System.Drawing.Point(0, 0);
             this.sbtn_providerInfo.Name = "sbtn_providerInfo";
             this.sbtn_providerInfo.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.sbtn_providerInfo.Size = new System.Drawing.Size(203, 50);
+            this.sbtn_providerInfo.Size = new System.Drawing.Size(199, 50);
             this.sbtn_providerInfo.TabIndex = 0;
             this.sbtn_providerInfo.Text = "廠商基本資料";
             this.sbtn_providerInfo.UseVisualStyleBackColor = true;
@@ -767,7 +787,7 @@
             this.btn_basic.Location = new System.Drawing.Point(0, 140);
             this.btn_basic.Name = "btn_basic";
             this.btn_basic.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_basic.Size = new System.Drawing.Size(203, 55);
+            this.btn_basic.Size = new System.Drawing.Size(199, 55);
             this.btn_basic.TabIndex = 2;
             this.btn_basic.Text = "  基本資料管理";
             this.btn_basic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -786,7 +806,7 @@
             this.btn_home.Location = new System.Drawing.Point(0, 85);
             this.btn_home.Name = "btn_home";
             this.btn_home.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btn_home.Size = new System.Drawing.Size(203, 55);
+            this.btn_home.Size = new System.Drawing.Size(199, 55);
             this.btn_home.TabIndex = 1;
             this.btn_home.Text = "  首 頁";
             this.btn_home.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -801,7 +821,7 @@
             this.panel_logo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_logo.Location = new System.Drawing.Point(0, 0);
             this.panel_logo.Name = "panel_logo";
-            this.panel_logo.Size = new System.Drawing.Size(203, 85);
+            this.panel_logo.Size = new System.Drawing.Size(199, 85);
             this.panel_logo.TabIndex = 0;
             // 
             // label1
@@ -811,7 +831,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(150)))), ((int)(((byte)(219)))));
             this.label1.Location = new System.Drawing.Point(85, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 20);
+            this.label1.Size = new System.Drawing.Size(140, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "HairSalonMS";
             // 
@@ -846,7 +866,7 @@
             this.label_time.ForeColor = System.Drawing.Color.White;
             this.label_time.Location = new System.Drawing.Point(720, 10);
             this.label_time.Name = "label_time";
-            this.label_time.Size = new System.Drawing.Size(89, 20);
+            this.label_time.Size = new System.Drawing.Size(114, 25);
             this.label_time.TabIndex = 0;
             this.label_time.Text = "HH:MM:SS";
             // 
@@ -857,7 +877,7 @@
             this.label_userRole.ForeColor = System.Drawing.Color.White;
             this.label_userRole.Location = new System.Drawing.Point(89, 10);
             this.label_userRole.Name = "label_userRole";
-            this.label_userRole.Size = new System.Drawing.Size(131, 20);
+            this.label_userRole.Size = new System.Drawing.Size(164, 25);
             this.label_userRole.TabIndex = 0;
             this.label_userRole.Text = "root (系統管理員)";
             // 
@@ -868,7 +888,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(7, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 20);
+            this.label2.Size = new System.Drawing.Size(98, 25);
             this.label2.TabIndex = 0;
             this.label2.Text = "當前用戶:";
             // 
@@ -880,7 +900,7 @@
             this.label_logOut.ForeColor = System.Drawing.Color.White;
             this.label_logOut.Location = new System.Drawing.Point(974, 9);
             this.label_logOut.Name = "label_logOut";
-            this.label_logOut.Size = new System.Drawing.Size(73, 20);
+            this.label_logOut.Size = new System.Drawing.Size(92, 25);
             this.label_logOut.TabIndex = 0;
             this.label_logOut.Text = "退出登錄";
             this.label_logOut.Click += new System.EventHandler(this.label_logOut_Click);
@@ -902,7 +922,7 @@
             // 
             // Form_Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 800);
             this.Controls.Add(this.panel_childForm);
@@ -993,5 +1013,6 @@
         private System.Windows.Forms.Button sbtn_product_refund;
         private System.Windows.Forms.Button sbtn_product_in;
         private System.Windows.Forms.Button btn_product;
+        private System.Windows.Forms.Button sbtn_providerAdd;
     }
 }

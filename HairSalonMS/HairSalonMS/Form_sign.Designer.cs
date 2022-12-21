@@ -356,7 +356,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(146, 55);
             this.label6.TabIndex = 1;
-            this.label6.Text = "注  冊";
+            this.label6.Text = "註  冊";
             // 
             // pictureBox3
             // 

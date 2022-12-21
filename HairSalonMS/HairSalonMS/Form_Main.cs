@@ -81,7 +81,7 @@ namespace SHRMS
             btn_temp_sub.BackColor = Color.FromArgb(0, 120, 215);
         }
 
-        [DllImport("user32.dll")]//拖动无窗体的控件
+        [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
         [DllImport("user32.dll")]
         public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
@@ -91,7 +91,7 @@ namespace SHRMS
 
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
-            //拖动窗体
+           
             ReleaseCapture();
             SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);
         }
@@ -356,7 +356,7 @@ namespace SHRMS
         {
             Form_sign frm_sign = new Form_sign();
             frm_sign.Show();//不能用ShowDialog()
-            //Application.Exit();//全部关闭？
+           
             this.Close();
             this.Dispose();
         }
